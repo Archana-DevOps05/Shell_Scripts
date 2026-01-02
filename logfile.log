@@ -1,0 +1,1295 @@
+Jan  2 12:49:30 archana-Latitude-5490 wpa_supplicant[924]: wlp2s0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-35 noise=9999 txrate=72200
+Jan  2 12:49:32 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3463:3468:0102/124932.228426:ERROR:net/socket/ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -101
+Jan  2 12:49:32 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3463:3468:0102/124932.682739:ERROR:net/socket/ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -101
+Jan  2 12:49:35 archana-Latitude-5490 anacron[25166]: Job `cron.daily' terminated
+Jan  2 12:49:35 archana-Latitude-5490 anacron[25166]: Normal exit (1 job run)
+Jan  2 12:49:36 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3442:0102/124936.050433:ERROR:google_apis/gcm/engine/registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Jan  2 12:49:36 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3463:3468:0102/124936.066464:ERROR:net/socket/ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -101
+Jan  2 12:49:42 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3442:0102/124942.065307:ERROR:google_apis/gcm/engine/connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Jan  2 12:49:47 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3463:3468:0102/124947.496652:ERROR:net/socket/ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -101
+Jan  2 12:49:58 archana-Latitude-5490 wpa_supplicant[924]: wlp2s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-25 noise=9999 txrate=72200
+Jan  2 12:50:03 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3442:0102/125003.426375:ERROR:google_apis/gcm/engine/registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Jan  2 12:50:12 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3463:3468:0102/125012.398865:ERROR:net/socket/ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -101
+Jan  2 12:50:19 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338419.9000] device (wlp2s0): disconnecting for new activation request.
+Jan  2 12:50:19 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338419.9001] device (wlp2s0): state change: activated -> deactivating (reason 'new-activation', sys-iface-state: 'managed')
+Jan  2 12:50:19 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338419.9030] manager: NetworkManager state is now CONNECTED_LOCAL
+Jan  2 12:50:19 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338419.9049] audit: op="connection-activate" uuid="a06168b2-f075-4528-a35d-c47b610cdf0d" name="Niharika" pid=2768 uid=1000 result="success"
+Jan  2 12:50:19 archana-Latitude-5490 dbus-daemon[919]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=923 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jan  2 12:50:19 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338419.9059] device (wlp2s0): state change: deactivating -> disconnected (reason 'new-activation', sys-iface-state: 'managed')
+Jan  2 12:50:19 archana-Latitude-5490 avahi-daemon[946]: Withdrawing address record for 2401:4900:58ce:2991:6431:72f4:3dad:c655 on wlp2s0.
+Jan  2 12:50:19 archana-Latitude-5490 whoopsie[1947]: [12:50:19] offline
+Jan  2 12:50:19 archana-Latitude-5490 avahi-daemon[946]: Withdrawing address record for 2401:4900:58ce:2991:fdc1:b848:cb0:dbba on wlp2s0.
+Jan  2 12:50:19 archana-Latitude-5490 avahi-daemon[946]: Leaving mDNS multicast group on interface wlp2s0.IPv6 with address 2401:4900:58ce:2991:fdc1:b848:cb0:dbba.
+Jan  2 12:50:19 archana-Latitude-5490 avahi-daemon[946]: Joining mDNS multicast group on interface wlp2s0.IPv6 with address fe80::27e2:7eab:c126:ff81.
+Jan  2 12:50:19 archana-Latitude-5490 avahi-daemon[946]: Registering new address record for fe80::27e2:7eab:c126:ff81 on wlp2s0.*.
+Jan  2 12:50:19 archana-Latitude-5490 avahi-daemon[946]: Withdrawing address record for fe80::27e2:7eab:c126:ff81 on wlp2s0.
+Jan  2 12:50:19 archana-Latitude-5490 avahi-daemon[946]: Leaving mDNS multicast group on interface wlp2s0.IPv6 with address fe80::27e2:7eab:c126:ff81.
+Jan  2 12:50:19 archana-Latitude-5490 avahi-daemon[946]: Interface wlp2s0.IPv6 no longer relevant for mDNS.
+Jan  2 12:50:19 archana-Latitude-5490 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jan  2 12:50:19 archana-Latitude-5490 dbus-daemon[919]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan  2 12:50:19 archana-Latitude-5490 systemd[1]: Started Network Manager Script Dispatcher Service.
+Jan  2 12:50:19 archana-Latitude-5490 nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Jan  2 12:50:19 archana-Latitude-5490 nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Jan  2 12:50:19 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338419.9861] dhcp4 (wlp2s0): canceled DHCP transaction, DHCP client pid 25609
+Jan  2 12:50:19 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338419.9861] dhcp4 (wlp2s0): state changed bound -> done
+Jan  2 12:50:19 archana-Latitude-5490 kernel: [41620.606211] wlp2s0: deauthenticating from be:2f:ab:53:51:e1 by local choice (Reason: 3=DEAUTH_LEAVING)
+Jan  2 12:50:20 archana-Latitude-5490 wpa_supplicant[924]: wlp2s0: CTRL-EVENT-DISCONNECTED bssid=be:2f:ab:53:51:e1 reason=3 locally_generated=1
+Jan  2 12:50:20 archana-Latitude-5490 whoopsie[1947]: [12:50:20] Cannot reach: https://daisy.ubuntu.com
+Jan  2 12:50:20 archana-Latitude-5490 avahi-daemon[946]: Withdrawing address record for 192.168.198.55 on wlp2s0.
+Jan  2 12:50:20 archana-Latitude-5490 avahi-daemon[946]: Leaving mDNS multicast group on interface wlp2s0.IPv4 with address 192.168.198.55.
+Jan  2 12:50:20 archana-Latitude-5490 avahi-daemon[946]: Interface wlp2s0.IPv4 no longer relevant for mDNS.
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.0110] device (wlp2s0): Activation: starting connection 'Niharika' (a06168b2-f075-4528-a35d-c47b610cdf0d)
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <warn>  [1767338420.0123] sup-iface[0x55914a4f66f0,wlp2s0]: connection disconnected (reason -3)
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.0124] device (wlp2s0): supplicant interface state: completed -> disconnected
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.0152] device (wlp2s0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.0169] manager: NetworkManager state is now CONNECTING
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.0183] device (wlp2s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.0193] device (wlp2s0): Activation: (wifi) access point 'Niharika' has security, but secrets are required.
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.0197] device (wlp2s0): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Jan  2 12:50:20 archana-Latitude-5490 gnome-shell[2768]: Object St.Widget (0x55650f7ce700), has been already deallocated - impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs
+Jan  2 12:50:20 archana-Latitude-5490 nm-dispatcher: req:2 'down' [wlp2s0]: new request (1 scripts)
+Jan  2 12:50:20 archana-Latitude-5490 nm-dispatcher: req:2 'down' [wlp2s0]: start running ordered scripts...
+Jan  2 12:50:20 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: == Stack trace for context 0x55650cff0320 ==
+Jan  2 12:50:20 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #0 0x55650d382f28 i   resource:///org/gnome/shell/ui/modalDialog.js:93 (0x7f9c8a7f14d8 @ 22)
+Jan  2 12:50:20 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #1 0x7ffe4ce25a60 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 12:50:20 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #2 0x7ffe4ce25b30 b   resource:///org/gnome/gjs/modules/_legacy.js:39 (0x7f9c8a7b5b38 @ 215)
+Jan  2 12:50:20 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #3 0x55650d382e98 i   resource:///org/gnome/shell/ui/status/network.js:783 (0x7f9c607176f8 @ 409)
+Jan  2 12:50:20 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #4 0x7ffe4ce26780 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 12:50:20 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #5 0x55650d382e10 i   resource:///org/gnome/shell/ui/modalDialog.js:168 (0x7f9c8a7f1a28 @ 92)
+Jan  2 12:50:20 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #6 0x7ffe4ce27360 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 12:50:20 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #7 0x7ffe4ce27af0 b   self-hosted:914 (0x7f9c8a7f12b8 @ 346)
+Jan  2 12:50:20 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #8 0x7ffe4ce28a60 b   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f9c8a7d2b38 @ 54)
+Jan  2 12:50:20 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #9 0x7ffe4ce28bb0 b   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f9c8a7d2bc0 @ 1626)
+Jan  2 12:50:20 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #10 0x7ffe4ce28c60 b   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f9c8a7d2c48 @ 100)
+Jan  2 12:50:20 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #11 0x7ffe4ce28cf0 b   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f9c8a7d2cd0 @ 10)
+Jan  2 12:50:20 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #12 0x7ffe4ce28de0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f9c8a7d2230 @ 386)
+Jan  2 12:50:20 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #13 0x7ffe4ce28e90 b   resource:///org/gnome/shell/ui/tweener.js:244 (0x7f9c8a7cf808 @ 159)
+Jan  2 12:50:20 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #14 0x7ffe4ce28ef0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 12:50:20 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #15 0x7ffe4ce28f90 b   resource:///org/gnome/shell/ui/tweener.js:219 (0x7f9c8a7cf780 @ 15)
+Jan  2 12:50:20 archana-Latitude-5490 gnome-shell[2768]: clutter_actor_destroy: assertion 'CLUTTER_IS_ACTOR (self)' failed
+Jan  2 12:50:20 archana-Latitude-5490 gsd-sharing[3083]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.
+Jan  2 12:50:20 archana-Latitude-5490 gsd-sharing[3083]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.
+Jan  2 12:50:20 archana-Latitude-5490 gsd-sharing[3083]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.0321] device (wlp2s0): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.0328] device (wlp2s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.0331] device (wlp2s0): Activation: (wifi) connection 'Niharika' has security, and secrets exist.  No new secrets needed.
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.0332] Config: added 'ssid' value 'Niharika'
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.0333] Config: added 'scan_ssid' value '1'
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.0333] Config: added 'bgscan' value 'simple:30:-80:86400'
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.0333] Config: added 'key_mgmt' value 'WPA-PSK'
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.0333] Config: added 'auth_alg' value 'OPEN'
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.0333] Config: added 'psk' value '<hidden>'
+Jan  2 12:50:20 archana-Latitude-5490 wpa_supplicant[924]: wlp2s0: SME: Trying to authenticate with 56:26:6e:0a:7f:74 (SSID='Niharika' freq=2412 MHz)
+Jan  2 12:50:20 archana-Latitude-5490 kernel: [41620.785694] wlp2s0: authenticate with 56:26:6e:0a:7f:74
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.1750] device (wlp2s0): supplicant interface state: disconnected -> authenticating
+Jan  2 12:50:20 archana-Latitude-5490 kernel: [41620.792943] wlp2s0: send auth to 56:26:6e:0a:7f:74 (try 1/3)
+Jan  2 12:50:20 archana-Latitude-5490 wpa_supplicant[924]: wlp2s0: Trying to associate with 56:26:6e:0a:7f:74 (SSID='Niharika' freq=2412 MHz)
+Jan  2 12:50:20 archana-Latitude-5490 kernel: [41620.800878] wlp2s0: authenticated
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.1877] device (wlp2s0): supplicant interface state: authenticating -> associating
+Jan  2 12:50:20 archana-Latitude-5490 kernel: [41620.803811] wlp2s0: associate with 56:26:6e:0a:7f:74 (try 1/3)
+Jan  2 12:50:20 archana-Latitude-5490 wpa_supplicant[924]: wlp2s0: Associated with 56:26:6e:0a:7f:74
+Jan  2 12:50:20 archana-Latitude-5490 wpa_supplicant[924]: wlp2s0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Jan  2 12:50:20 archana-Latitude-5490 kernel: [41620.813236] wlp2s0: RX AssocResp from 56:26:6e:0a:7f:74 (capab=0x1431 status=0 aid=1)
+Jan  2 12:50:20 archana-Latitude-5490 kernel: [41620.814726] wlp2s0: associated
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.2014] device (wlp2s0): supplicant interface state: associating -> associated
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.2874] device (wlp2s0): supplicant interface state: associated -> 4-way handshake
+Jan  2 12:50:20 archana-Latitude-5490 wpa_supplicant[924]: wlp2s0: WPA: Key negotiation completed with 56:26:6e:0a:7f:74 [PTK=CCMP GTK=CCMP]
+Jan  2 12:50:20 archana-Latitude-5490 wpa_supplicant[924]: wlp2s0: CTRL-EVENT-CONNECTED - Connection to 56:26:6e:0a:7f:74 completed [id=0 id_str=]
+Jan  2 12:50:20 archana-Latitude-5490 wpa_supplicant[924]: wlp2s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-32 noise=9999 txrate=1000
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.3183] device (wlp2s0): supplicant interface state: 4-way handshake -> completed
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.3184] device (wlp2s0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful.  Connected to wireless network 'Niharika'.
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.3192] device (wlp2s0): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.3206] dhcp4 (wlp2s0): activation: beginning transaction (timeout in 45 seconds)
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.3273] dhcp4 (wlp2s0): dhclient started with pid 26210
+Jan  2 12:50:20 archana-Latitude-5490 avahi-daemon[946]: Joining mDNS multicast group on interface wlp2s0.IPv6 with address fe80::7333:9148:e77c:1df1.
+Jan  2 12:50:20 archana-Latitude-5490 avahi-daemon[946]: New relevant interface wlp2s0.IPv6 for mDNS.
+Jan  2 12:50:20 archana-Latitude-5490 avahi-daemon[946]: Registering new address record for fe80::7333:9148:e77c:1df1 on wlp2s0.*.
+Jan  2 12:50:20 archana-Latitude-5490 dhclient[26210]: DHCPDISCOVER on wlp2s0 to 255.255.255.255 port 67 interval 3 (xid=0x8bc8883d)
+Jan  2 12:50:20 archana-Latitude-5490 dhclient[26210]: DHCPREQUEST of 192.168.43.36 on wlp2s0 to 255.255.255.255 port 67 (xid=0x3d88c88b)
+Jan  2 12:50:20 archana-Latitude-5490 dhclient[26210]: DHCPOFFER of 192.168.43.36 from 192.168.43.1
+Jan  2 12:50:20 archana-Latitude-5490 dhclient[26210]: DHCPACK of 192.168.43.36 from 192.168.43.1
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.6197] dhcp4 (wlp2s0):   address 192.168.43.36
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.6198] dhcp4 (wlp2s0):   plen 24 (255.255.255.0)
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.6199] dhcp4 (wlp2s0):   gateway 192.168.43.1
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.6200] dhcp4 (wlp2s0):   lease time 3600
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.6200] dhcp4 (wlp2s0):   hostname 'archana-Latitude-5490'
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.6201] dhcp4 (wlp2s0):   nameserver '192.168.43.1'
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.6201] dhcp4 (wlp2s0): state changed unknown -> bound
+Jan  2 12:50:20 archana-Latitude-5490 avahi-daemon[946]: Joining mDNS multicast group on interface wlp2s0.IPv4 with address 192.168.43.36.
+Jan  2 12:50:20 archana-Latitude-5490 avahi-daemon[946]: New relevant interface wlp2s0.IPv4 for mDNS.
+Jan  2 12:50:20 archana-Latitude-5490 avahi-daemon[946]: Registering new address record for 192.168.43.36 on wlp2s0.IPv4.
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.6293] device (wlp2s0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.6353] device (wlp2s0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.6367] device (wlp2s0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.6374] manager: NetworkManager state is now CONNECTED_LOCAL
+Jan  2 12:50:20 archana-Latitude-5490 dhclient[26210]: bound to 192.168.43.36 -- renewal in 1736 seconds.
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.6496] manager: NetworkManager state is now CONNECTED_SITE
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.6500] policy: set 'Niharika' (wlp2s0) as default for IPv4 routing and DNS
+Jan  2 12:50:20 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338420.6543] device (wlp2s0): Activation: successful, device activated.
+Jan  2 12:50:20 archana-Latitude-5490 nm-dispatcher: req:3 'up' [wlp2s0]: new request (1 scripts)
+Jan  2 12:50:20 archana-Latitude-5490 nm-dispatcher: req:3 'up' [wlp2s0]: start running ordered scripts...
+Jan  2 12:50:20 archana-Latitude-5490 gsd-sharing[3083]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.
+Jan  2 12:50:20 archana-Latitude-5490 gsd-sharing[3083]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.
+Jan  2 12:50:20 archana-Latitude-5490 gsd-sharing[3083]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.
+Jan  2 12:50:22 archana-Latitude-5490 avahi-daemon[946]: Leaving mDNS multicast group on interface wlp2s0.IPv6 with address fe80::7333:9148:e77c:1df1.
+Jan  2 12:50:22 archana-Latitude-5490 avahi-daemon[946]: Joining mDNS multicast group on interface wlp2s0.IPv6 with address 2401:4900:bb61:b3c1:97fd:e03c:eec0:8434.
+Jan  2 12:50:22 archana-Latitude-5490 avahi-daemon[946]: Registering new address record for 2401:4900:bb61:b3c1:97fd:e03c:eec0:8434 on wlp2s0.*.
+Jan  2 12:50:22 archana-Latitude-5490 avahi-daemon[946]: Withdrawing address record for fe80::7333:9148:e77c:1df1 on wlp2s0.
+Jan  2 12:50:22 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338422.4559] policy: set 'Niharika' (wlp2s0) as default for IPv6 routing and DNS
+Jan  2 12:50:22 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3442:0102/125022.476930:ERROR:google_apis/gcm/engine/registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Jan  2 12:50:23 archana-Latitude-5490 avahi-daemon[946]: Registering new address record for 2401:4900:bb61:b3c1:6431:72f4:3dad:c655 on wlp2s0.*.
+Jan  2 12:50:33 archana-Latitude-5490 NetworkManager[923]: <info>  [1767338433.3946] manager: NetworkManager state is now CONNECTED_GLOBAL
+Jan  2 12:50:33 archana-Latitude-5490 dbus-daemon[919]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=923 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jan  2 12:50:33 archana-Latitude-5490 whoopsie[1947]: [12:50:33] Cannot reach: https://daisy.ubuntu.com
+Jan  2 12:50:33 archana-Latitude-5490 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jan  2 12:50:33 archana-Latitude-5490 whoopsie[1947]: [12:50:33] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/11
+Jan  2 12:50:33 archana-Latitude-5490 whoopsie[1947]: [12:50:33] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/11
+Jan  2 12:50:33 archana-Latitude-5490 whoopsie[1947]: [12:50:33] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/11
+Jan  2 12:50:33 archana-Latitude-5490 dbus-daemon[919]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan  2 12:50:33 archana-Latitude-5490 systemd[1]: Started Network Manager Script Dispatcher Service.
+Jan  2 12:50:33 archana-Latitude-5490 nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Jan  2 12:50:33 archana-Latitude-5490 nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Jan  2 12:50:34 archana-Latitude-5490 whoopsie[1947]: [12:50:34] online
+Jan  2 12:50:38 archana-Latitude-5490 systemd-resolved[773]: Using degraded feature set (UDP) for DNS server 192.168.43.1.
+Jan  2 12:50:43 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3442:0102/125043.445021:ERROR:google_apis/gcm/engine/registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Jan  2 12:50:47 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3442:0102/125047.799584:ERROR:google_apis/gcm/engine/registration_request.cc:292] Registration response error message: QUOTA_EXCEEDED
+Jan  2 12:51:36 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3442:0102/125136.147605:ERROR:google_apis/gcm/engine/registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Jan  2 12:53:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: Gtk-Message: 12:53:00.039: GtkDialog mapped without a transient parent. This is discouraged.
+Jan  2 12:53:00 archana-Latitude-5490 dbus-daemon[919]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.214' (uid=1000 pid=3397 comm="/opt/google/chrome/chrome " label="unconfined")
+Jan  2 12:53:00 archana-Latitude-5490 systemd[1]: Starting Hostname Service...
+Jan  2 12:53:00 archana-Latitude-5490 dbus-daemon[919]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Jan  2 12:53:00 archana-Latitude-5490 systemd[1]: Started Hostname Service.
+Jan  2 12:53:23 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3442:0102/125323.187912:ERROR:google_apis/gcm/engine/registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Jan  2 12:54:17 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3460:3460:0102/125417.843236:ERROR:gpu/command_buffer/service/shared_image/shared_image_manager.cc:397] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+Jan  2 12:57:16 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3442:0102/125716.138288:ERROR:google_apis/gcm/engine/registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Jan  2 12:59:29 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [0102/125929.379733:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:153] open /home/archana/.config/google-chrome/Crash Reports/pending/d278c32e-e9ed-4e91-86e5-2c2ccef185d7.lock: File exists (17)
+Jan  2 13:01:10 archana-Latitude-5490 systemd[1]: Started Run anacron jobs.
+Jan  2 13:01:10 archana-Latitude-5490 anacron[26896]: Anacron 2.3 started on 2026-01-02
+Jan  2 13:01:10 archana-Latitude-5490 anacron[26896]: Normal exit (0 jobs run)
+Jan  2 13:01:35 archana-Latitude-5490 systemd-timesyncd[770]: Synchronized to time server [2620:2d:4000:1::41]:123 (ntp.ubuntu.com).
+Jan  2 13:04:55 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3442:0102/130455.868453:ERROR:google_apis/gcm/engine/registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Jan  2 13:04:56 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3460:3460:0102/130456.031185:ERROR:gpu/command_buffer/service/shared_image/shared_image_manager.cc:397] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+Jan  2 13:06:03 archana-Latitude-5490 systemd-resolved[773]: Using degraded feature set (UDP) for DNS server 2401:4900:bb61:b3c1::99.
+Jan  2 13:06:29 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3460:3460:0102/130629.541897:ERROR:gpu/command_buffer/service/shared_image/shared_image_manager.cc:397] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+Jan  2 13:09:01 archana-Latitude-5490 CRON[27102]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan  2 13:09:10 archana-Latitude-5490 systemd[1]: Starting Clean php session files...
+Jan  2 13:09:10 archana-Latitude-5490 systemd[1]: Started Clean php session files.
+Jan  2 13:11:07 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3397:0102/131107.187875:ERROR:mojo/public/cpp/bindings/lib/interface_endpoint_client.cc:732] Message 0 rejected by interface blink.mojom.WidgetHost
+Jan  2 13:11:09 archana-Latitude-5490 systemd-resolved[773]: Grace period over, resuming full feature set (UDP+EDNS0) for DNS server 192.168.43.1.
+Jan  2 13:14:29 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [0102/131429.380385:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:153] open /home/archana/.config/google-chrome/Crash Reports/pending/d278c32e-e9ed-4e91-86e5-2c2ccef185d7.lock: File exists (17)
+Jan  2 13:14:57 archana-Latitude-5490 wpa_supplicant[924]: wlp2s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-33 noise=9999 txrate=72200
+Jan  2 13:17:01 archana-Latitude-5490 CRON[27600]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan  2 13:18:43 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: Gtk-Message: 13:18:43.220: GtkDialog mapped without a transient parent. This is discouraged.
+Jan  2 13:18:43 archana-Latitude-5490 dbus-daemon[919]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.217' (uid=1000 pid=3397 comm="/opt/google/chrome/chrome " label="unconfined")
+Jan  2 13:18:43 archana-Latitude-5490 systemd[1]: Starting Hostname Service...
+Jan  2 13:18:43 archana-Latitude-5490 dbus-daemon[919]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Jan  2 13:18:43 archana-Latitude-5490 systemd[1]: Started Hostname Service.
+Jan  2 13:19:17 archana-Latitude-5490 dhclient[26210]: DHCPREQUEST of 192.168.43.36 on wlp2s0 to 192.168.43.1 port 67 (xid=0x3d88c88b)
+Jan  2 13:19:18 archana-Latitude-5490 dhclient[26210]: DHCPACK of 192.168.43.36 from 192.168.43.1
+Jan  2 13:19:18 archana-Latitude-5490 NetworkManager[923]: <info>  [1767340158.0324] dhcp4 (wlp2s0):   address 192.168.43.36
+Jan  2 13:19:18 archana-Latitude-5490 NetworkManager[923]: <info>  [1767340158.0325] dhcp4 (wlp2s0):   plen 24 (255.255.255.0)
+Jan  2 13:19:18 archana-Latitude-5490 NetworkManager[923]: <info>  [1767340158.0325] dhcp4 (wlp2s0):   gateway 192.168.43.1
+Jan  2 13:19:18 archana-Latitude-5490 NetworkManager[923]: <info>  [1767340158.0325] dhcp4 (wlp2s0):   lease time 3600
+Jan  2 13:19:18 archana-Latitude-5490 NetworkManager[923]: <info>  [1767340158.0325] dhcp4 (wlp2s0):   hostname 'archana-Latitude-5490'
+Jan  2 13:19:18 archana-Latitude-5490 NetworkManager[923]: <info>  [1767340158.0325] dhcp4 (wlp2s0):   nameserver '192.168.43.1'
+Jan  2 13:19:18 archana-Latitude-5490 NetworkManager[923]: <info>  [1767340158.0326] dhcp4 (wlp2s0): state changed bound -> bound
+Jan  2 13:19:18 archana-Latitude-5490 dbus-daemon[919]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=923 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jan  2 13:19:18 archana-Latitude-5490 dhclient[26210]: bound to 192.168.43.36 -- renewal in 1509 seconds.
+Jan  2 13:19:18 archana-Latitude-5490 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jan  2 13:19:18 archana-Latitude-5490 dbus-daemon[919]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan  2 13:19:18 archana-Latitude-5490 systemd[1]: Started Network Manager Script Dispatcher Service.
+Jan  2 13:19:18 archana-Latitude-5490 nm-dispatcher: req:1 'dhcp4-change' [wlp2s0]: new request (1 scripts)
+Jan  2 13:19:18 archana-Latitude-5490 nm-dispatcher: req:1 'dhcp4-change' [wlp2s0]: start running ordered scripts...
+Jan  2 13:29:29 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [0102/132929.380836:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:153] open /home/archana/.config/google-chrome/Crash Reports/pending/d278c32e-e9ed-4e91-86e5-2c2ccef185d7.lock: File exists (17)
+Jan  2 13:32:34 archana-Latitude-5490 NetworkManager[923]: <info>  [1767340954.1944] manager: sleep: sleep requested (sleeping: no  enabled: yes)
+Jan  2 13:32:34 archana-Latitude-5490 NetworkManager[923]: <info>  [1767340954.1945] device (70:5F:A3:6D:7F:8A): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Jan  2 13:32:34 archana-Latitude-5490 NetworkManager[923]: <info>  [1767340954.1948] manager: NetworkManager state is now ASLEEP
+Jan  2 13:32:34 archana-Latitude-5490 NetworkManager[923]: <info>  [1767340954.1952] device (wlp2s0): state change: activated -> deactivating (reason 'sleeping', sys-iface-state: 'managed')
+Jan  2 13:32:34 archana-Latitude-5490 whoopsie[1947]: [13:32:34] offline
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3442:0102/133234.198148:ERROR:google_apis/gcm/engine/connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Jan  2 13:32:34 archana-Latitude-5490 NetworkManager[923]: <info>  [1767340954.1996] device (wlp2s0): state change: deactivating -> disconnected (reason 'sleeping', sys-iface-state: 'managed')
+Jan  2 13:32:34 archana-Latitude-5490 avahi-daemon[946]: Withdrawing address record for 2401:4900:bb61:b3c1:6431:72f4:3dad:c655 on wlp2s0.
+Jan  2 13:32:34 archana-Latitude-5490 avahi-daemon[946]: Withdrawing address record for 2401:4900:bb61:b3c1:97fd:e03c:eec0:8434 on wlp2s0.
+Jan  2 13:32:34 archana-Latitude-5490 avahi-daemon[946]: Leaving mDNS multicast group on interface wlp2s0.IPv6 with address 2401:4900:bb61:b3c1:97fd:e03c:eec0:8434.
+Jan  2 13:32:34 archana-Latitude-5490 avahi-daemon[946]: Joining mDNS multicast group on interface wlp2s0.IPv6 with address fe80::7333:9148:e77c:1df1.
+Jan  2 13:32:34 archana-Latitude-5490 avahi-daemon[946]: Registering new address record for fe80::7333:9148:e77c:1df1 on wlp2s0.*.
+Jan  2 13:32:34 archana-Latitude-5490 avahi-daemon[946]: Withdrawing address record for fe80::7333:9148:e77c:1df1 on wlp2s0.
+Jan  2 13:32:34 archana-Latitude-5490 avahi-daemon[946]: Leaving mDNS multicast group on interface wlp2s0.IPv6 with address fe80::7333:9148:e77c:1df1.
+Jan  2 13:32:34 archana-Latitude-5490 avahi-daemon[946]: Interface wlp2s0.IPv6 no longer relevant for mDNS.
+Jan  2 13:32:34 archana-Latitude-5490 dbus-daemon[919]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=923 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3442:0102/133234.204694:ERROR:google_apis/gcm/engine/connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Jan  2 13:32:34 archana-Latitude-5490 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3442:0102/133234.207674:ERROR:google_apis/gcm/engine/connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3442:0102/133234.207761:ERROR:google_apis/gcm/engine/connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Jan  2 13:32:34 archana-Latitude-5490 gnome-shell[1222]: Failed to read EDID from 'eDP-1': No such file or directory
+Jan  2 13:32:34 archana-Latitude-5490 gnome-shell[1222]: Screen lock is locked down, not locking
+Jan  2 13:32:34 archana-Latitude-5490 gnome-shell[1222]: Failed to read EDID from 'eDP-1': No such file or directory
+Jan  2 13:32:34 archana-Latitude-5490 gnome-shell[1222]: Failed to read EDID from 'eDP-1': No such file or directory
+Jan  2 13:32:34 archana-Latitude-5490 dbus-daemon[919]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan  2 13:32:34 archana-Latitude-5490 systemd[1]: Started Network Manager Script Dispatcher Service.
+Jan  2 13:32:34 archana-Latitude-5490 nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Jan  2 13:32:34 archana-Latitude-5490 nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Jan  2 13:32:34 archana-Latitude-5490 gnome-shell[1222]: Failed to set power save mode for output eDP-1: Permission denied
+Jan  2 13:32:34 archana-Latitude-5490 gnome-shell[1222]: Failed to read EDID from 'eDP-1': No such file or directory
+Jan  2 13:32:34 archana-Latitude-5490 NetworkManager[923]: <info>  [1767340954.2419] dhcp4 (wlp2s0): canceled DHCP transaction, DHCP client pid 26210
+Jan  2 13:32:34 archana-Latitude-5490 NetworkManager[923]: <info>  [1767340954.2419] dhcp4 (wlp2s0): state changed bound -> done
+Jan  2 13:32:34 archana-Latitude-5490 avahi-daemon[946]: Withdrawing address record for 192.168.43.36 on wlp2s0.
+Jan  2 13:32:34 archana-Latitude-5490 avahi-daemon[946]: Leaving mDNS multicast group on interface wlp2s0.IPv4 with address 192.168.43.36.
+Jan  2 13:32:34 archana-Latitude-5490 kernel: [44154.220545] wlp2s0: deauthenticating from 56:26:6e:0a:7f:74 by local choice (Reason: 3=DEAUTH_LEAVING)
+Jan  2 13:32:34 archana-Latitude-5490 gsd-color[1579]: failed to set screen _ICC_PROFILE: Failed to open file “/home/archana/.local/share/icc/edid-c817e2353123aff84a2bd02ae70170c5.icc”: Permission denied
+Jan  2 13:32:34 archana-Latitude-5490 avahi-daemon[946]: Interface wlp2s0.IPv4 no longer relevant for mDNS.
+Jan  2 13:32:34 archana-Latitude-5490 wpa_supplicant[924]: wlp2s0: CTRL-EVENT-DISCONNECTED bssid=56:26:6e:0a:7f:74 reason=3 locally_generated=1
+Jan  2 13:32:34 archana-Latitude-5490 whoopsie[1947]: [13:32:34] Cannot reach: https://daisy.ubuntu.com
+Jan  2 13:32:34 archana-Latitude-5490 NetworkManager[923]: <warn>  [1767340954.2805] sup-iface[0x55914a4f66f0,wlp2s0]: connection disconnected (reason -3)
+Jan  2 13:32:34 archana-Latitude-5490 nm-dispatcher: req:2 'down' [wlp2s0]: new request (1 scripts)
+Jan  2 13:32:34 archana-Latitude-5490 NetworkManager[923]: <info>  [1767340954.2807] device (wlp2s0): supplicant interface state: completed -> disconnected
+Jan  2 13:32:34 archana-Latitude-5490 nm-dispatcher: req:2 'down' [wlp2s0]: start running ordered scripts...
+Jan  2 13:32:34 archana-Latitude-5490 NetworkManager[923]: <info>  [1767340954.2814] device (wlp2s0): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Jan  2 13:32:34 archana-Latitude-5490 gsd-sharing[3083]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.
+Jan  2 13:32:34 archana-Latitude-5490 gsd-sharing[3083]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.
+Jan  2 13:32:34 archana-Latitude-5490 gsd-sharing[3083]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.
+Jan  2 13:32:34 archana-Latitude-5490 wpa_supplicant[924]: nl80211: deinit ifname=p2p-dev-wlp2s0 disabled_11b_rates=0
+Jan  2 13:32:34 archana-Latitude-5490 gnome-shell[2768]: Object .Gjs_AppIndicatorIconActor__1 (0x55651299f120), has been already finalized. Impossible to set any property to it.
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: == Stack trace for context 0x55650cff0320 ==
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #0 0x7ffe4ce1e370 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f9c8a7b5de0 @ 87)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #1 0x55650d383650 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f9c607c3780 @ 58)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #2 0x7ffe4ce1ef50 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #3 0x7ffe4ce1f010 b   self-hosted:916 (0x7f9c8a7f12b8 @ 367)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #4 0x7ffe4ce1f100 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f9c8a7d2230 @ 386)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #5 0x55650d3835c8 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f9c607b3450 @ 22)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #6 0x7ffe4ce1fd50 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #7 0x55650d383520 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f9c607ada28 @ 225)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #8 0x7ffe4ce20930 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #9 0x55650d3834a8 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f9c60784bc0 @ 37)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #10 0x55650d3833e8 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7f9c8a5592b8 @ 441)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #11 0x55650d383368 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7f9c8a559d58 @ 13)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #12 0x7ffe4ce21630 b   self-hosted:251 (0x7f9c8a7c4ab0 @ 223)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #13 0x55650d3832e8 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7f9c8a559cd0 @ 64)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #14 0x55650d383268 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7f9c8a559de0 @ 87)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #15 0x7ffe4ce22b30 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f9c8a7d2230 @ 386)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #16 0x7ffe4ce23340 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f9c8a4705e8 @ 254)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #17 0x7ffe4ce24020 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #18 0x55650d383128 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f9c8a4703c8 @ 40)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #19 0x7ffe4ce24c00 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #20 0x55650d383080 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f9c8a453a28 @ 188)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #21 0x7ffe4ce257e0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #22 0x55650d382fd0 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7f9c8a453ab0 @ 391)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #23 0x7ffe4ce263c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #24 0x55650d382f48 i   resource:///org/gnome/shell/ui/screenShield.js:734 (0x7f9c8a451560 @ 57)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #25 0x7ffe4ce26fb0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #26 0x7ffe4ce27770 b   self-hosted:918 (0x7f9c8a7f12b8 @ 394)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #27 0x7ffe4ce27860 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f9c8a7d2230 @ 386)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #28 0x55650d382eb0 i   resource:///org/gnome/shell/misc/loginManager.js:186 (0x7f9c8a512230 @ 92)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #29 0x7ffe4ce284d0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #30 0x7ffe4ce285b0 b   self-hosted:920 (0x7f9c8a7f12b8 @ 428)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #31 0x7ffe4ce286b0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f9c8a7d2230 @ 386)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #32 0x55650d382e10 i   resource:///org/gnome/gjs/modules/overrides/Gio.js:117 (0x7f9c8a7e0ab0 @ 39)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: == Stack trace for context 0x55650cff0320 ==
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #0 0x7ffe4ce1e370 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f9c8a7b5de0 @ 87)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #1 0x55650d383650 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f9c607c3780 @ 58)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #2 0x7ffe4ce1ef50 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #3 0x7ffe4ce1f010 b   self-hosted:916 (0x7f9c8a7f12b8 @ 367)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #4 0x7ffe4ce1f100 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f9c8a7d2230 @ 386)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #5 0x55650d3835c8 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f9c607b3450 @ 22)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #6 0x7ffe4ce1fd50 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 13:32:34 archana-Latitude-5490 gnome-shell[2768]: Object .Gjs_AppIndicatorIconActor__1 (0x5565124e5970), has been already finalized. Impossible to set any property to it.
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #7 0x55650d383520 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f9c607ada28 @ 225)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #8 0x7ffe4ce20930 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #9 0x55650d3834a8 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f9c60784bc0 @ 37)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #10 0x55650d3833e8 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7f9c8a5592b8 @ 441)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #11 0x55650d383368 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7f9c8a559d58 @ 13)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #12 0x7ffe4ce21630 b   self-hosted:251 (0x7f9c8a7c4ab0 @ 223)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #13 0x55650d3832e8 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7f9c8a559cd0 @ 64)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #14 0x55650d383268 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7f9c8a559de0 @ 87)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #15 0x7ffe4ce22b30 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f9c8a7d2230 @ 386)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #16 0x7ffe4ce23340 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f9c8a4705e8 @ 254)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #17 0x7ffe4ce24020 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #18 0x55650d383128 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f9c8a4703c8 @ 40)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #19 0x7ffe4ce24c00 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #20 0x55650d383080 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f9c8a453a28 @ 188)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #21 0x7ffe4ce257e0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #22 0x55650d382fd0 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7f9c8a453ab0 @ 391)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #23 0x7ffe4ce263c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #24 0x55650d382f48 i   resource:///org/gnome/shell/ui/screenShield.js:734 (0x7f9c8a451560 @ 57)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #25 0x7ffe4ce26fb0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #26 0x7ffe4ce27770 b   self-hosted:918 (0x7f9c8a7f12b8 @ 394)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #27 0x7ffe4ce27860 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f9c8a7d2230 @ 386)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #28 0x55650d382eb0 i   resource:///org/gnome/shell/misc/loginManager.js:186 (0x7f9c8a512230 @ 92)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #29 0x7ffe4ce284d0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #30 0x7ffe4ce285b0 b   self-hosted:920 (0x7f9c8a7f12b8 @ 428)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #31 0x7ffe4ce286b0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f9c8a7d2230 @ 386)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #32 0x55650d382e10 i   resource:///org/gnome/gjs/modules/overrides/Gio.js:117 (0x7f9c8a7e0ab0 @ 39)
+Jan  2 13:32:34 archana-Latitude-5490 gnome-shell[2768]: Object .Gjs_AppIndicatorIconActor__1 (0x55651299bc40), has been already finalized. Impossible to set any property to it.
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: == Stack trace for context 0x55650cff0320 ==
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #0 0x7ffe4ce1e370 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f9c8a7b5de0 @ 87)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #1 0x55650d383650 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f9c607c3780 @ 58)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #2 0x7ffe4ce1ef50 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #3 0x7ffe4ce1f010 b   self-hosted:916 (0x7f9c8a7f12b8 @ 367)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #4 0x7ffe4ce1f100 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f9c8a7d2230 @ 386)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #5 0x55650d3835c8 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f9c607b3450 @ 22)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #6 0x7ffe4ce1fd50 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #7 0x55650d383520 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f9c607ada28 @ 225)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #8 0x7ffe4ce20930 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #9 0x55650d3834a8 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f9c60784bc0 @ 37)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #10 0x55650d3833e8 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7f9c8a5592b8 @ 441)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #11 0x55650d383368 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7f9c8a559d58 @ 13)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #12 0x7ffe4ce21630 b   self-hosted:251 (0x7f9c8a7c4ab0 @ 223)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #13 0x55650d3832e8 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7f9c8a559cd0 @ 64)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #14 0x55650d383268 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7f9c8a559de0 @ 87)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #15 0x7ffe4ce22b30 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f9c8a7d2230 @ 386)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #16 0x7ffe4ce23340 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f9c8a4705e8 @ 254)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #17 0x7ffe4ce24020 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #18 0x55650d383128 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f9c8a4703c8 @ 40)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #19 0x7ffe4ce24c00 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #20 0x55650d383080 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f9c8a453a28 @ 188)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #21 0x7ffe4ce257e0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #22 0x55650d382fd0 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7f9c8a453ab0 @ 391)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #23 0x7ffe4ce263c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #24 0x55650d382f48 i   resource:///org/gnome/shell/ui/screenShield.js:734 (0x7f9c8a451560 @ 57)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #25 0x7ffe4ce26fb0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #26 0x7ffe4ce27770 b   self-hosted:918 (0x7f9c8a7f12b8 @ 394)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #27 0x7ffe4ce27860 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f9c8a7d2230 @ 386)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #28 0x55650d382eb0 i   resource:///org/gnome/shell/misc/loginManager.js:186 (0x7f9c8a512230 @ 92)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #29 0x7ffe4ce284d0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #30 0x7ffe4ce285b0 b   self-hosted:920 (0x7f9c8a7f12b8 @ 428)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #31 0x7ffe4ce286b0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f9c8a7d2230 @ 386)
+Jan  2 13:32:34 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #32 0x55650d382e10 i   resource:///org/gnome/gjs/modules/overrides/Gio.js:117 (0x7f9c8a7e0ab0 @ 39)
+Jan  2 13:32:34 archana-Latitude-5490 gnome-software[4014]: no app for changed ubuntu-appindicators@ubuntu.com
+Jan  2 13:32:34 archana-Latitude-5490 gnome-software[4014]: no app for changed ubuntu-dock@ubuntu.com
+Jan  2 13:32:34 archana-Latitude-5490 wpa_supplicant[924]: nl80211: deinit ifname=wlp2s0 disabled_11b_rates=0
+Jan  2 13:32:38 archana-Latitude-5490 systemd[1]: Reached target Sleep.
+Jan  2 13:32:38 archana-Latitude-5490 systemd[1]: Starting Suspend...
+Jan  2 13:32:38 archana-Latitude-5490 systemd-sleep[27889]: Suspending system...
+Jan  2 13:32:38 archana-Latitude-5490 kernel: [44158.216525] PM: suspend entry (deep)
+Jan  2 13:32:38 archana-Latitude-5490 kernel: [44158.240621] Filesystems sync: 0.024 seconds
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.246335] Freezing user space processes ... (elapsed 0.003 seconds) done.
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.249493] OOM killer disabled.
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.249494] Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done.
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.250931] printk: Suspending console(s) (use no_console_suspend to debug)
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.294950] sd 2:0:0:0: [sda] Synchronizing SCSI cache
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.295049] sd 2:0:0:0: [sda] Stopping disk
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.362105] e1000e: EEE TX LPI TIMER: 00000011
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.596464] ACPI: EC: interrupt blocked
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.647828] ACPI: Preparing to enter system sleep state S3
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.663775] ACPI: EC: event blocked
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.663777] ACPI: EC: EC stopped
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.663779] PM: Saving platform NVS memory
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.663957] Disabling non-boot CPUs ...
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.666998] smpboot: CPU 1 is now offline
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.672201] smpboot: CPU 2 is now offline
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.676530] IRQ 127: no longer affine to CPU3
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.677582] smpboot: CPU 3 is now offline
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.682002] IRQ 131: no longer affine to CPU4
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.683044] smpboot: CPU 4 is now offline
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.687088] IRQ 123: no longer affine to CPU5
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.687101] IRQ 129: no longer affine to CPU5
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.688166] smpboot: CPU 5 is now offline
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.692466] IRQ 125: no longer affine to CPU6
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.692480] IRQ 130: no longer affine to CPU6
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.693512] smpboot: CPU 6 is now offline
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.697458] IRQ 122: no longer affine to CPU7
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.698546] smpboot: CPU 7 is now offline
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.704390] ACPI: Low-level resume complete
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.704440] ACPI: EC: EC started
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.704441] PM: Restoring platform NVS memory
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.705223] Enabling non-boot CPUs ...
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.705276] x86: Booting SMP configuration:
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.705278] smpboot: Booting Node 0 Processor 1 APIC 0x2
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.706343] CPU1 is up
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.706367] smpboot: Booting Node 0 Processor 2 APIC 0x4
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.706938] CPU2 is up
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.706961] smpboot: Booting Node 0 Processor 3 APIC 0x6
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.707536] CPU3 is up
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.707557] smpboot: Booting Node 0 Processor 4 APIC 0x1
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.708228] CPU4 is up
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.708255] smpboot: Booting Node 0 Processor 5 APIC 0x3
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.708845] CPU5 is up
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.708867] smpboot: Booting Node 0 Processor 6 APIC 0x5
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.709476] CPU6 is up
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.709497] smpboot: Booting Node 0 Processor 7 APIC 0x7
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.710148] CPU7 is up
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.712538] ACPI: Waking up from system sleep state S3
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44158.778149] ACPI: EC: interrupt unblocked
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44159.004052] ACPI: EC: event unblocked
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44159.005036] xhci_hcd 0000:00:14.0: xHC error in resume, USBSTS 0x411, Reinit
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44159.005040] usb usb1: root hub lost power or was reset
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44159.005043] sd 2:0:0:0: [sda] Starting disk
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44159.005044] usb usb2: root hub lost power or was reset
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44159.317165] ata3: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44159.319260] ata3.00: ACPI cmd ef/10:06:00:00:00:00 (SET FEATURES) succeeded
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44159.319261] ata3.00: ACPI cmd f5/00:00:00:00:00:00 (SECURITY FREEZE LOCK) filtered out
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44159.319263] ata3.00: ACPI cmd b1/c1:00:00:00:00:00 (DEVICE CONFIGURATION OVERLAY) filtered out
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44159.319689] ata3.00: ACPI cmd 00/00:00:00:00:00:a0 (NOP) rejected by device (Stat=0x51 Err=0x04)
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44159.327068] ata3.00: ACPI cmd ef/10:06:00:00:00:00 (SET FEATURES) succeeded
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44159.327074] ata3.00: ACPI cmd f5/00:00:00:00:00:00 (SECURITY FREEZE LOCK) filtered out
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44159.327079] ata3.00: ACPI cmd b1/c1:00:00:00:00:00 (DEVICE CONFIGURATION OVERLAY) filtered out
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44159.327515] ata3.00: ACPI cmd 00/00:00:00:00:00:a0 (NOP) rejected by device (Stat=0x51 Err=0x04)
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44159.329900] ata3.00: configured for UDMA/133
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44159.430082] usb 1-5: reset high-speed USB device number 2 using xhci_hcd
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44159.583559] restoring control 00000000-0000-0000-0000-000000000101/10/5
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44159.583562] restoring control 00000000-0000-0000-0000-000000000101/12/11
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44159.706294] usb 1-7: reset full-speed USB device number 3 using xhci_hcd
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44159.857928] acpi LNXPOWER:00: Turning OFF
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44159.858171] OOM killer enabled.
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44159.858173] Restarting tasks ... 
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44159.864171] nouveau 0000:03:00.0: Enabling HDA controller
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44159.864354] done.
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44159.865433] Bluetooth: hci0: Bootloader revision 0.0 build 26 week 38 2015
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44159.866440] Bluetooth: hci0: Device revision is 16
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44159.866442] Bluetooth: hci0: Secure boot is enabled
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44159.866443] Bluetooth: hci0: OTP lock is enabled
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44159.866444] Bluetooth: hci0: API lock is enabled
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44159.866445] Bluetooth: hci0: Debug lock is disabled
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44159.866446] Bluetooth: hci0: Minimum firmware build 1 week 10 2014
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44159.868307] Bluetooth: hci0: Found device firmware: intel/ibt-12-16.sfi
+Jan  2 18:58:26 archana-Latitude-5490 bluetoothd[918]: Endpoint unregistered: sender=:1.84 path=/MediaEndpoint/A2DPSource
+Jan  2 18:58:26 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [0102/185826.158834:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:153] open /home/archana/.config/google-chrome/Crash Reports/pending/d278c32e-e9ed-4e91-86e5-2c2ccef185d7.lock: File exists (17)
+Jan  2 18:58:26 archana-Latitude-5490 bluetoothd[918]: Endpoint unregistered: sender=:1.84 path=/MediaEndpoint/A2DPSink
+Jan  2 18:58:26 archana-Latitude-5490 systemd[1]: Starting Clean php session files...
+Jan  2 18:58:26 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360506.1777] bluez5: NAP: removed interface 14:4F:8A:29:8E:97
+Jan  2 18:58:26 archana-Latitude-5490 upowerd[1262]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7:1.1
+Jan  2 18:58:26 archana-Latitude-5490 upowerd[1262]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7:1.0
+Jan  2 18:58:26 archana-Latitude-5490 upowerd[1262]: unhandled action 'bind' on /sys/devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7:1.1
+Jan  2 18:58:26 archana-Latitude-5490 upowerd[1262]: unhandled action 'bind' on /sys/devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7:1.0
+Jan  2 18:58:26 archana-Latitude-5490 gnome-shell[1222]: Failed to read EDID from 'eDP-1': No such file or directory
+Jan  2 18:58:26 archana-Latitude-5490 gnome-shell[1222]: message repeated 2 times: [ Failed to read EDID from 'eDP-1': No such file or directory]
+Jan  2 18:58:26 archana-Latitude-5490 gsd-color[1579]: failed to set screen _ICC_PROFILE: Failed to open file “/home/archana/.local/share/icc/edid-c817e2353123aff84a2bd02ae70170c5.icc”: Permission denied
+Jan  2 18:58:26 archana-Latitude-5490 systemd[1]: Starting Load/Save RF Kill Switch Status...
+Jan  2 18:58:26 archana-Latitude-5490 systemd-rfkill[27980]: Failed to open device rfkill11: No such device
+Jan  2 18:58:26 archana-Latitude-5490 systemd[1]: Reached target Bluetooth.
+Jan  2 18:58:26 archana-Latitude-5490 systemd[1]: Started Load/Save RF Kill Switch Status.
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44160.003053] nouveau 0000:03:00.0: bus: MMIO read of 00000000 FAULT at 6013d4 [ IBUS ]
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44160.009259] thermal thermal_zone8: failed to read out thermal zone (-61)
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44160.049314] PM: suspend exit
+Jan  2 18:58:26 archana-Latitude-5490 systemd-sleep[27889]: System resumed.
+Jan  2 18:58:26 archana-Latitude-5490 systemd-sleep[27889]: /dev/sda:
+Jan  2 18:58:26 archana-Latitude-5490 systemd-sleep[27889]:  setting Advanced Power Management level to 0x80 (128)
+Jan  2 18:58:26 archana-Latitude-5490 systemd-sleep[27889]:  APM_level#011= 128
+Jan  2 18:58:26 archana-Latitude-5490 systemd-sleep[27889]: /dev/sda:
+Jan  2 18:58:26 archana-Latitude-5490 systemd-sleep[27889]:  setting standby to 36 (3 minutes)
+Jan  2 18:58:26 archana-Latitude-5490 systemd[1]: Started Suspend.
+Jan  2 18:58:26 archana-Latitude-5490 systemd[1]: sleep.target: Unit not needed anymore. Stopping.
+Jan  2 18:58:26 archana-Latitude-5490 systemd[1]: Stopped target Sleep.
+Jan  2 18:58:26 archana-Latitude-5490 systemd[1]: Reached target Suspend.
+Jan  2 18:58:26 archana-Latitude-5490 systemd[1]: suspend.target: Unit not needed anymore. Stopping.
+Jan  2 18:58:26 archana-Latitude-5490 systemd[1]: Stopped target Suspend.
+Jan  2 18:58:26 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360506.3951] manager: sleep: wake requested (sleeping: yes  enabled: yes)
+Jan  2 18:58:26 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360506.3952] device (enp0s31f6): state change: unavailable -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Jan  2 18:58:26 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3438:0102/185826.399758:ERROR:components/sync/engine/get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jan  2 18:58:26 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3440:0102/185826.399894:ERROR:components/sync/engine/get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jan  2 18:58:26 archana-Latitude-5490 pulseaudio[1450]: W: [pulseaudio] sink-input.c: Failed to create sink input: sink is suspended.
+Jan  2 18:58:26 archana-Latitude-5490 gnome-shell[1222]: Failed to set power save mode for output eDP-1: Permission denied
+Jan  2 18:58:26 archana-Latitude-5490 systemd[1]: Started Clean php session files.
+Jan  2 18:58:26 archana-Latitude-5490 kernel: [44160.180725] e1000e: enp0s31f6 NIC Link is Down
+Jan  2 18:58:26 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360506.4766] device (enp0s31f6): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Jan  2 18:58:26 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360506.6655] device (wlp2s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Jan  2 18:58:26 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360506.9013] manager: NetworkManager state is now CONNECTED_LOCAL
+Jan  2 18:58:26 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360506.9889] sup-iface[0x55914a4b0370,wlp2s0]: supports 5 scan SSIDs
+Jan  2 18:58:26 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360506.9909] device (wlp2s0): supplicant interface state: starting -> ready
+Jan  2 18:58:26 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360506.9911] device (wlp2s0): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Jan  2 18:58:27 archana-Latitude-5490 kernel: [44161.512127] Bluetooth: hci0: Waiting for firmware download to complete
+Jan  2 18:58:27 archana-Latitude-5490 kernel: [44161.512535] Bluetooth: hci0: Firmware loaded in 1609703 usecs
+Jan  2 18:58:27 archana-Latitude-5490 kernel: [44161.512747] Bluetooth: hci0: Waiting for device to boot
+Jan  2 18:58:27 archana-Latitude-5490 kernel: [44161.524535] Bluetooth: hci0: Device booted in 11628 usecs
+Jan  2 18:58:27 archana-Latitude-5490 kernel: [44161.524645] Bluetooth: hci0: Found Intel DDC parameters: intel/ibt-12-16.ddc
+Jan  2 18:58:27 archana-Latitude-5490 kernel: [44161.527516] Bluetooth: hci0: Applying Intel DDC parameters completed
+Jan  2 18:58:27 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360507.8847] bluez5: NAP: added interface 14:4F:8A:29:8E:97
+Jan  2 18:58:27 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3449:0102/185827.903270:ERROR:components/sync/engine/get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jan  2 18:58:27 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3440:0102/185827.903460:ERROR:components/sync/engine/get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jan  2 18:58:27 archana-Latitude-5490 bluetoothd[918]: Endpoint registered: sender=:1.84 path=/MediaEndpoint/A2DPSource
+Jan  2 18:58:27 archana-Latitude-5490 bluetoothd[918]: Endpoint registered: sender=:1.84 path=/MediaEndpoint/A2DPSink
+Jan  2 18:58:27 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360507.9229] keyfile: add connection in-memory (7f16e418-a7d8-45e4-9808-a47fb828717a,"Redmi 9reconnectnb2 Network")
+Jan  2 18:58:27 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360507.9240] bluez: BT device Redmi 9reconnectnb2 (70:5F:A3:6D:7F:8A) added (NAP)
+Jan  2 18:58:27 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360507.9246] manager: (70:5F:A3:6D:7F:8A): new Bluetooth device (/org/freedesktop/NetworkManager/Devices/14)
+Jan  2 18:58:27 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360507.9249] device (70:5F:A3:6D:7F:8A): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Jan  2 18:58:27 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360507.9295] device (70:5F:A3:6D:7F:8A): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+Jan  2 18:58:28 archana-Latitude-5490 ModemManager[938]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:1c.2/0000:02:00.0': not supported by any plugin
+Jan  2 18:58:28 archana-Latitude-5490 ModemManager[938]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:1f.6': not supported by any plugin
+Jan  2 18:58:30 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3438:0102/185830.162345:ERROR:components/sync/engine/get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.2707] policy: auto-activating connection 'Sandhya'
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.2719] device (wlp2s0): Activation: starting connection 'Sandhya' (a2595dba-efef-4bfe-a479-44d75613d827)
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.2721] device (wlp2s0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.2722] manager: NetworkManager state is now CONNECTING
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.2728] device (wlp2s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.2731] device (wlp2s0): Activation: (wifi) access point 'Sandhya' has security, but secrets are required.
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.2732] device (wlp2s0): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.2777] device (wlp2s0): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.2782] device (wlp2s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.2786] device (wlp2s0): Activation: (wifi) connection 'Sandhya' has security, and secrets exist.  No new secrets needed.
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.2786] Config: added 'ssid' value 'Sandhya'
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.2787] Config: added 'scan_ssid' value '1'
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.2787] Config: added 'bgscan' value 'simple:30:-80:86400'
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.2787] Config: added 'key_mgmt' value 'WPA-PSK'
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.2787] Config: added 'auth_alg' value 'OPEN'
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.2787] Config: added 'psk' value '<hidden>'
+Jan  2 18:58:31 archana-Latitude-5490 wpa_supplicant[924]: wlp2s0: SME: Trying to authenticate with be:2f:ab:53:51:e1 (SSID='Sandhya' freq=2437 MHz)
+Jan  2 18:58:31 archana-Latitude-5490 kernel: [44164.994778] wlp2s0: authenticate with be:2f:ab:53:51:e1
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.2978] device (wlp2s0): supplicant interface state: ready -> authenticating
+Jan  2 18:58:31 archana-Latitude-5490 kernel: [44165.003144] wlp2s0: send auth to be:2f:ab:53:51:e1 (try 1/3)
+Jan  2 18:58:31 archana-Latitude-5490 wpa_supplicant[924]: wlp2s0: Trying to associate with be:2f:ab:53:51:e1 (SSID='Sandhya' freq=2437 MHz)
+Jan  2 18:58:31 archana-Latitude-5490 kernel: [44165.011625] wlp2s0: authenticated
+Jan  2 18:58:31 archana-Latitude-5490 kernel: [44165.014721] wlp2s0: associate with be:2f:ab:53:51:e1 (try 1/3)
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.3117] device (wlp2s0): supplicant interface state: authenticating -> associating
+Jan  2 18:58:31 archana-Latitude-5490 kernel: [44165.020891] wlp2s0: RX AssocResp from be:2f:ab:53:51:e1 (capab=0x411 status=0 aid=1)
+Jan  2 18:58:31 archana-Latitude-5490 wpa_supplicant[924]: wlp2s0: Associated with be:2f:ab:53:51:e1
+Jan  2 18:58:31 archana-Latitude-5490 wpa_supplicant[924]: wlp2s0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Jan  2 18:58:31 archana-Latitude-5490 kernel: [44165.023082] wlp2s0: associated
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.3234] device (wlp2s0): supplicant interface state: associating -> associated
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.3600] device (wlp2s0): supplicant interface state: associated -> 4-way handshake
+Jan  2 18:58:31 archana-Latitude-5490 wpa_supplicant[924]: wlp2s0: WPA: Key negotiation completed with be:2f:ab:53:51:e1 [PTK=CCMP GTK=CCMP]
+Jan  2 18:58:31 archana-Latitude-5490 wpa_supplicant[924]: wlp2s0: CTRL-EVENT-CONNECTED - Connection to be:2f:ab:53:51:e1 completed [id=0 id_str=]
+Jan  2 18:58:31 archana-Latitude-5490 kernel: [44165.069327] IPv6: ADDRCONF(NETDEV_CHANGE): wlp2s0: link becomes ready
+Jan  2 18:58:31 archana-Latitude-5490 wpa_supplicant[924]: wlp2s0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-22 noise=9999 txrate=1000
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.3694] device (wlp2s0): supplicant interface state: 4-way handshake -> completed
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.3695] device (wlp2s0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful.  Connected to wireless network 'Sandhya'.
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.3699] device (wlp2s0): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.3708] dhcp4 (wlp2s0): activation: beginning transaction (timeout in 45 seconds)
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.3762] dhcp4 (wlp2s0): dhclient started with pid 28130
+Jan  2 18:58:31 archana-Latitude-5490 avahi-daemon[946]: Joining mDNS multicast group on interface wlp2s0.IPv6 with address fe80::27e2:7eab:c126:ff81.
+Jan  2 18:58:31 archana-Latitude-5490 avahi-daemon[946]: New relevant interface wlp2s0.IPv6 for mDNS.
+Jan  2 18:58:31 archana-Latitude-5490 avahi-daemon[946]: Registering new address record for fe80::27e2:7eab:c126:ff81 on wlp2s0.*.
+Jan  2 18:58:31 archana-Latitude-5490 dhclient[28130]: DHCPDISCOVER on wlp2s0 to 255.255.255.255 port 67 interval 3 (xid=0xf10e5304)
+Jan  2 18:58:31 archana-Latitude-5490 wpa_supplicant[924]: wlp2s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-20 noise=9999 txrate=72200
+Jan  2 18:58:31 archana-Latitude-5490 dhclient[28130]: DHCPREQUEST of 192.168.198.55 on wlp2s0 to 255.255.255.255 port 67 (xid=0x4530ef1)
+Jan  2 18:58:31 archana-Latitude-5490 dhclient[28130]: DHCPOFFER of 192.168.198.55 from 192.168.198.115
+Jan  2 18:58:31 archana-Latitude-5490 dhclient[28130]: DHCPACK of 192.168.198.55 from 192.168.198.115
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.4754] dhcp4 (wlp2s0):   address 192.168.198.55
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.4755] dhcp4 (wlp2s0):   plen 24 (255.255.255.0)
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.4756] dhcp4 (wlp2s0):   gateway 192.168.198.115
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.4756] dhcp4 (wlp2s0):   lease time 3599
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.4756] dhcp4 (wlp2s0):   hostname 'archana-Latitude-5490'
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.4757] dhcp4 (wlp2s0):   nameserver '192.168.198.115'
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.4757] dhcp4 (wlp2s0): state changed unknown -> bound
+Jan  2 18:58:31 archana-Latitude-5490 avahi-daemon[946]: Joining mDNS multicast group on interface wlp2s0.IPv4 with address 192.168.198.55.
+Jan  2 18:58:31 archana-Latitude-5490 dhclient[28130]: bound to 192.168.198.55 -- renewal in 1747 seconds.
+Jan  2 18:58:31 archana-Latitude-5490 avahi-daemon[946]: New relevant interface wlp2s0.IPv4 for mDNS.
+Jan  2 18:58:31 archana-Latitude-5490 avahi-daemon[946]: Registering new address record for 192.168.198.55 on wlp2s0.IPv4.
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.4882] device (wlp2s0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.4913] device (wlp2s0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.4924] device (wlp2s0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.4932] manager: NetworkManager state is now CONNECTED_LOCAL
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.5079] manager: NetworkManager state is now CONNECTED_SITE
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.5080] policy: set 'Sandhya' (wlp2s0) as default for IPv4 routing and DNS
+Jan  2 18:58:31 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360511.5089] device (wlp2s0): Activation: successful, device activated.
+Jan  2 18:58:31 archana-Latitude-5490 dbus-daemon[919]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=923 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jan  2 18:58:31 archana-Latitude-5490 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jan  2 18:58:31 archana-Latitude-5490 gsd-sharing[3083]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.
+Jan  2 18:58:31 archana-Latitude-5490 gsd-sharing[3083]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.
+Jan  2 18:58:31 archana-Latitude-5490 gsd-sharing[3083]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.
+Jan  2 18:58:31 archana-Latitude-5490 dbus-daemon[919]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan  2 18:58:31 archana-Latitude-5490 systemd[1]: Started Network Manager Script Dispatcher Service.
+Jan  2 18:58:31 archana-Latitude-5490 nm-dispatcher: req:1 'up' [wlp2s0]: new request (1 scripts)
+Jan  2 18:58:31 archana-Latitude-5490 nm-dispatcher: req:1 'up' [wlp2s0]: start running ordered scripts...
+Jan  2 18:58:32 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360512.9310] manager: NetworkManager state is now CONNECTED_GLOBAL
+Jan  2 18:58:32 archana-Latitude-5490 nm-dispatcher: req:2 'connectivity-change': new request (1 scripts)
+Jan  2 18:58:32 archana-Latitude-5490 nm-dispatcher: req:2 'connectivity-change': start running ordered scripts...
+Jan  2 18:58:33 archana-Latitude-5490 avahi-daemon[946]: Leaving mDNS multicast group on interface wlp2s0.IPv6 with address fe80::27e2:7eab:c126:ff81.
+Jan  2 18:58:33 archana-Latitude-5490 avahi-daemon[946]: Joining mDNS multicast group on interface wlp2s0.IPv6 with address 2401:4900:58ce:2820:f07b:4fbd:8b3:efec.
+Jan  2 18:58:33 archana-Latitude-5490 NetworkManager[923]: <info>  [1767360513.4995] policy: set 'Sandhya' (wlp2s0) as default for IPv6 routing and DNS
+Jan  2 18:58:33 archana-Latitude-5490 avahi-daemon[946]: Registering new address record for 2401:4900:58ce:2820:f07b:4fbd:8b3:efec on wlp2s0.*.
+Jan  2 18:58:33 archana-Latitude-5490 avahi-daemon[946]: Withdrawing address record for fe80::27e2:7eab:c126:ff81 on wlp2s0.
+Jan  2 18:58:35 archana-Latitude-5490 avahi-daemon[946]: Registering new address record for 2401:4900:58ce:2820:6431:72f4:3dad:c655 on wlp2s0.*.
+Jan  2 18:58:36 archana-Latitude-5490 whoopsie[1947]: [18:58:36] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/12
+Jan  2 18:58:36 archana-Latitude-5490 whoopsie[1947]: [18:58:36] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/12
+Jan  2 18:58:36 archana-Latitude-5490 whoopsie[1947]: [18:58:36] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/12
+Jan  2 18:58:36 archana-Latitude-5490 whoopsie[1947]: [18:58:36] online
+Jan  2 18:58:36 archana-Latitude-5490 whoopsie[1947]: [18:58:36] Cannot reach: https://daisy.ubuntu.com
+Jan  2 18:58:36 archana-Latitude-5490 whoopsie[1947]: [18:58:36] offline
+Jan  2 18:58:37 archana-Latitude-5490 wpa_supplicant[924]: wlp2s0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-40 noise=9999 txrate=72200
+Jan  2 18:58:37 archana-Latitude-5490 whoopsie[1947]: [18:58:37] online
+Jan  2 18:58:40 archana-Latitude-5490 gnome-software[4014]: no app for changed ubuntu-dock@ubuntu.com
+Jan  2 18:58:40 archana-Latitude-5490 gnome-software[4014]: no app for changed ubuntu-appindicators@ubuntu.com
+Jan  2 18:58:40 archana-Latitude-5490 gvfsd-metadata[3277]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Jan  2 18:58:40 archana-Latitude-5490 gvfsd-metadata[3277]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Jan  2 18:58:40 archana-Latitude-5490 gnome-shell[2768]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.76/org/ayatana/NotificationItem/software_update_available
+Jan  2 18:58:40 archana-Latitude-5490 gnome-shell[2768]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.76/org/ayatana/NotificationItem/livepatch
+Jan  2 18:58:40 archana-Latitude-5490 gnome-shell[2768]: [AppIndicatorSupport-DEBUG] Using Brute-force mode for StatusNotifierItem :1.74/StatusNotifierItem
+Jan  2 18:58:40 archana-Latitude-5490 gnome-shell[2768]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.74/StatusNotifierItem
+Jan  2 18:58:40 archana-Latitude-5490 gnome-shell[2768]: Received property WindowId with type u does not match expected type i in the expected interface
+Jan  2 18:58:40 archana-Latitude-5490 gnome-shell[2768]: [AppIndicatorSupport-WARN] while calling AboutToShow: Gio.IOErrorEnum: GDBus.Error:org.freedesktop.dbus.errors.UnknownMethod: The method `com.canonical.dbusmenu.AboutToShow' does not exist on this object.
+Jan  2 18:58:57 archana-Latitude-5490 wpa_supplicant[924]: wlp2s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-33 noise=9999 txrate=72200
+Jan  2 18:58:58 archana-Latitude-5490 wpa_supplicant[924]: wlp2s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-24 noise=9999 txrate=72200
+Jan  2 19:00:20 archana-Latitude-5490 systemd-resolved[773]: Using degraded feature set (UDP) for DNS server 192.168.198.115.
+Jan  2 19:00:41 archana-Latitude-5490 systemd-resolved[773]: Using degraded feature set (UDP) for DNS server 2401:4900:58ce:2820::d2.
+Jan  2 19:05:58 archana-Latitude-5490 gnome-shell[2768]: Could not delete runtime/persistent state file: Error removing file /run/user/1000/gnome-shell/runtime-state-LE.:0/screenShield.locked: No such file or directory
+Jan  2 19:06:58 archana-Latitude-5490 systemd-timesyncd[770]: Synchronized to time server [2620:2d:4000:1::41]:123 (ntp.ubuntu.com).
+Jan  2 19:09:01 archana-Latitude-5490 CRON[28511]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan  2 19:09:10 archana-Latitude-5490 systemd[1]: Starting Clean php session files...
+Jan  2 19:09:10 archana-Latitude-5490 systemd[1]: Started Clean php session files.
+Jan  2 19:13:12 archana-Latitude-5490 NetworkManager[923]: <info>  [1767361392.4840] connectivity: (wlp2s0) timed out
+Jan  2 19:13:12 archana-Latitude-5490 NetworkManager[923]: <info>  [1767361392.4841] manager: NetworkManager state is now CONNECTED_SITE
+Jan  2 19:13:12 archana-Latitude-5490 dbus-daemon[919]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=923 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jan  2 19:13:12 archana-Latitude-5490 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jan  2 19:13:12 archana-Latitude-5490 dbus-daemon[919]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan  2 19:13:12 archana-Latitude-5490 systemd[1]: Started Network Manager Script Dispatcher Service.
+Jan  2 19:13:12 archana-Latitude-5490 nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Jan  2 19:13:12 archana-Latitude-5490 nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Jan  2 19:13:12 archana-Latitude-5490 whoopsie[1947]: [19:13:12] Cannot reach: https://daisy.ubuntu.com
+Jan  2 19:13:12 archana-Latitude-5490 whoopsie[1947]: [19:13:12] offline
+Jan  2 19:13:26 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [0102/191326.159208:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:153] open /home/archana/.config/google-chrome/Crash Reports/pending/d278c32e-e9ed-4e91-86e5-2c2ccef185d7.lock: File exists (17)
+Jan  2 19:17:01 archana-Latitude-5490 CRON[29029]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan  2 19:17:44 archana-Latitude-5490 NetworkManager[923]: <info>  [1767361664.2332] manager: NetworkManager state is now CONNECTED_GLOBAL
+Jan  2 19:17:44 archana-Latitude-5490 dbus-daemon[919]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=923 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jan  2 19:17:44 archana-Latitude-5490 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jan  2 19:17:44 archana-Latitude-5490 dbus-daemon[919]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan  2 19:17:44 archana-Latitude-5490 systemd[1]: Started Network Manager Script Dispatcher Service.
+Jan  2 19:17:44 archana-Latitude-5490 nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Jan  2 19:17:44 archana-Latitude-5490 nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Jan  2 19:17:45 archana-Latitude-5490 whoopsie[1947]: [19:17:45] Cannot reach: https://daisy.ubuntu.com
+Jan  2 19:17:45 archana-Latitude-5490 whoopsie[1947]: [19:17:45] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/12
+Jan  2 19:17:45 archana-Latitude-5490 whoopsie[1947]: [19:17:45] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/12
+Jan  2 19:17:45 archana-Latitude-5490 whoopsie[1947]: [19:17:45] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/12
+Jan  2 19:17:46 archana-Latitude-5490 whoopsie[1947]: [19:17:46] online
+Jan  2 19:27:38 archana-Latitude-5490 dhclient[28130]: DHCPREQUEST of 192.168.198.55 on wlp2s0 to 192.168.198.115 port 67 (xid=0x4530ef1)
+Jan  2 19:27:39 archana-Latitude-5490 dhclient[28130]: DHCPACK of 192.168.198.55 from 192.168.198.115
+Jan  2 19:27:39 archana-Latitude-5490 NetworkManager[923]: <info>  [1767362259.0608] dhcp4 (wlp2s0):   address 192.168.198.55
+Jan  2 19:27:39 archana-Latitude-5490 NetworkManager[923]: <info>  [1767362259.0608] dhcp4 (wlp2s0):   plen 24 (255.255.255.0)
+Jan  2 19:27:39 archana-Latitude-5490 NetworkManager[923]: <info>  [1767362259.0608] dhcp4 (wlp2s0):   gateway 192.168.198.115
+Jan  2 19:27:39 archana-Latitude-5490 NetworkManager[923]: <info>  [1767362259.0608] dhcp4 (wlp2s0):   lease time 3599
+Jan  2 19:27:39 archana-Latitude-5490 NetworkManager[923]: <info>  [1767362259.0608] dhcp4 (wlp2s0):   hostname 'archana-Latitude-5490'
+Jan  2 19:27:39 archana-Latitude-5490 NetworkManager[923]: <info>  [1767362259.0609] dhcp4 (wlp2s0):   nameserver '192.168.198.115'
+Jan  2 19:27:39 archana-Latitude-5490 NetworkManager[923]: <info>  [1767362259.0609] dhcp4 (wlp2s0): state changed bound -> bound
+Jan  2 19:27:39 archana-Latitude-5490 dbus-daemon[919]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=923 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jan  2 19:27:39 archana-Latitude-5490 dhclient[28130]: bound to 192.168.198.55 -- renewal in 1561 seconds.
+Jan  2 19:27:39 archana-Latitude-5490 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jan  2 19:27:39 archana-Latitude-5490 dbus-daemon[919]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan  2 19:27:39 archana-Latitude-5490 systemd[1]: Started Network Manager Script Dispatcher Service.
+Jan  2 19:27:39 archana-Latitude-5490 nm-dispatcher: req:1 'dhcp4-change' [wlp2s0]: new request (1 scripts)
+Jan  2 19:27:39 archana-Latitude-5490 nm-dispatcher: req:1 'dhcp4-change' [wlp2s0]: start running ordered scripts...
+Jan  2 19:28:26 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [0102/192826.159811:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:153] open /home/archana/.config/google-chrome/Crash Reports/pending/d278c32e-e9ed-4e91-86e5-2c2ccef185d7.lock: File exists (17)
+Jan  2 19:39:01 archana-Latitude-5490 CRON[29526]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan  2 19:39:08 archana-Latitude-5490 systemd[1]: Starting Clean php session files...
+Jan  2 19:39:08 archana-Latitude-5490 systemd[1]: Started Clean php session files.
+Jan  2 19:43:26 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [0102/194326.160450:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:153] open /home/archana/.config/google-chrome/Crash Reports/pending/d278c32e-e9ed-4e91-86e5-2c2ccef185d7.lock: File exists (17)
+Jan  2 19:50:09 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3397:0102/195009.373592:ERROR:mojo/public/cpp/bindings/lib/interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+Jan  2 19:53:40 archana-Latitude-5490 dhclient[28130]: DHCPREQUEST of 192.168.198.55 on wlp2s0 to 192.168.198.115 port 67 (xid=0x4530ef1)
+Jan  2 19:53:40 archana-Latitude-5490 dhclient[28130]: DHCPACK of 192.168.198.55 from 192.168.198.115
+Jan  2 19:53:40 archana-Latitude-5490 NetworkManager[923]: <info>  [1767363820.6594] dhcp4 (wlp2s0):   address 192.168.198.55
+Jan  2 19:53:40 archana-Latitude-5490 NetworkManager[923]: <info>  [1767363820.6595] dhcp4 (wlp2s0):   plen 24 (255.255.255.0)
+Jan  2 19:53:40 archana-Latitude-5490 NetworkManager[923]: <info>  [1767363820.6595] dhcp4 (wlp2s0):   gateway 192.168.198.115
+Jan  2 19:53:40 archana-Latitude-5490 NetworkManager[923]: <info>  [1767363820.6596] dhcp4 (wlp2s0):   lease time 3599
+Jan  2 19:53:40 archana-Latitude-5490 NetworkManager[923]: <info>  [1767363820.6596] dhcp4 (wlp2s0):   hostname 'archana-Latitude-5490'
+Jan  2 19:53:40 archana-Latitude-5490 NetworkManager[923]: <info>  [1767363820.6597] dhcp4 (wlp2s0):   nameserver '192.168.198.115'
+Jan  2 19:53:40 archana-Latitude-5490 NetworkManager[923]: <info>  [1767363820.6597] dhcp4 (wlp2s0): state changed bound -> bound
+Jan  2 19:53:40 archana-Latitude-5490 dbus-daemon[919]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=923 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jan  2 19:53:40 archana-Latitude-5490 dhclient[28130]: bound to 192.168.198.55 -- renewal in 1646 seconds.
+Jan  2 19:53:40 archana-Latitude-5490 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jan  2 19:53:40 archana-Latitude-5490 dbus-daemon[919]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan  2 19:53:40 archana-Latitude-5490 systemd[1]: Started Network Manager Script Dispatcher Service.
+Jan  2 19:53:40 archana-Latitude-5490 nm-dispatcher: req:1 'dhcp4-change' [wlp2s0]: new request (1 scripts)
+Jan  2 19:53:40 archana-Latitude-5490 nm-dispatcher: req:1 'dhcp4-change' [wlp2s0]: start running ordered scripts...
+Jan  2 19:58:26 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [0102/195826.161173:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:153] open /home/archana/.config/google-chrome/Crash Reports/pending/d278c32e-e9ed-4e91-86e5-2c2ccef185d7.lock: File exists (17)
+Jan  2 20:04:35 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: Gtk-Message: 20:04:35.269: GtkDialog mapped without a transient parent. This is discouraged.
+Jan  2 20:04:35 archana-Latitude-5490 dbus-daemon[919]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.227' (uid=1000 pid=3397 comm="/opt/google/chrome/chrome " label="unconfined")
+Jan  2 20:04:35 archana-Latitude-5490 systemd[1]: Starting Hostname Service...
+Jan  2 20:04:35 archana-Latitude-5490 dbus-daemon[919]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Jan  2 20:04:35 archana-Latitude-5490 systemd[1]: Started Hostname Service.
+Jan  2 20:09:01 archana-Latitude-5490 CRON[30341]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan  2 20:09:09 archana-Latitude-5490 systemd[1]: Starting Clean php session files...
+Jan  2 20:09:09 archana-Latitude-5490 systemd[1]: Started Clean php session files.
+Jan  2 20:13:26 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [0102/201326.161728:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:153] open /home/archana/.config/google-chrome/Crash Reports/pending/d278c32e-e9ed-4e91-86e5-2c2ccef185d7.lock: File exists (17)
+Jan  2 20:17:01 archana-Latitude-5490 CRON[30531]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan  2 20:18:40 archana-Latitude-5490 /usr/lib/gdm3/gdm-x-session[2617]: (EE) event18 - DELL0816:00 044E:120A Touchpad: libinput bug: invalid tap event TAP_EVENT_MOTION in state TAP_STATE_TAPPED
+Jan  2 20:18:40 archana-Latitude-5490 /usr/lib/gdm3/gdm-x-session[2617]: message repeated 10 times: [ (EE) event18 - DELL0816:00 044E:120A Touchpad: libinput bug: invalid tap event TAP_EVENT_MOTION in state TAP_STATE_TAPPED]
+Jan  2 20:19:42 archana-Latitude-5490 systemd-resolved[773]: Grace period over, resuming full feature set (UDP+EDNS0) for DNS server 2401:4900:58ce:2820::d2.
+Jan  2 20:19:51 archana-Latitude-5490 systemd-resolved[773]: Using degraded feature set (UDP) for DNS server 2401:4900:58ce:2820::d2.
+Jan  2 20:20:17 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3463:3468:0102/202017.116045:ERROR:net/socket/ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -100
+Jan  2 20:20:17 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3463:3468:0102/202017.179605:ERROR:net/socket/ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -100
+Jan  2 20:20:22 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3463:3468:0102/202022.232930:ERROR:net/socket/ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -100
+Jan  2 20:20:31 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3463:3468:0102/202031.684449:ERROR:net/socket/ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -100
+Jan  2 20:20:32 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3463:3468:0102/202032.186367:ERROR:net/socket/ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -100
+Jan  2 20:20:35 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3463:3468:0102/202035.121650:ERROR:net/socket/ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -100
+Jan  2 20:20:35 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3463:3468:0102/202035.122581:ERROR:net/socket/ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -100
+Jan  2 20:20:35 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3463:3468:0102/202035.963475:ERROR:net/socket/ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -100
+Jan  2 20:20:42 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3463:3468:0102/202042.395882:ERROR:net/socket/ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -100
+Jan  2 20:20:43 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3463:3468:0102/202043.758080:ERROR:net/socket/ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -100
+Jan  2 20:20:43 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3463:3468:0102/202043.758670:ERROR:net/socket/ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -100
+Jan  2 20:20:43 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3463:3468:0102/202043.759017:ERROR:net/socket/ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -100
+Jan  2 20:20:45 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3463:3468:0102/202045.294043:ERROR:net/socket/ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -100
+Jan  2 20:20:45 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3463:3468:0102/202045.294353:ERROR:net/socket/ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -100
+Jan  2 20:20:45 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: Fontconfig error: Cannot load default config file: File not found
+Jan  2 20:20:47 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3463:3468:0102/202047.636324:ERROR:net/socket/ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -100
+Jan  2 20:20:51 archana-Latitude-5490 systemd[1]: Starting Message of the Day...
+Jan  2 20:20:51 archana-Latitude-5490 systemd[1]: Started Message of the Day.
+Jan  2 20:20:53 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3463:3468:0102/202053.900247:ERROR:net/socket/ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -100
+Jan  2 20:20:54 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3463:3468:0102/202054.075411:ERROR:net/socket/ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -100
+Jan  2 20:20:54 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3463:3468:0102/202054.075803:ERROR:net/socket/ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -100
+Jan  2 20:20:55 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3463:3468:0102/202055.205746:ERROR:net/socket/ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -101
+Jan  2 20:20:57 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3463:3468:0102/202057.736555:ERROR:net/socket/ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -100
+Jan  2 20:21:02 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3463:3468:0102/202102.190836:ERROR:net/socket/ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -101
+Jan  2 20:21:06 archana-Latitude-5490 dhclient[28130]: DHCPREQUEST of 192.168.198.55 on wlp2s0 to 192.168.198.115 port 67 (xid=0x4530ef1)
+Jan  2 20:21:06 archana-Latitude-5490 dhclient[28130]: DHCPACK of 192.168.198.55 from 192.168.198.115
+Jan  2 20:21:06 archana-Latitude-5490 NetworkManager[923]: <info>  [1767365466.9760] dhcp4 (wlp2s0):   address 192.168.198.55
+Jan  2 20:21:06 archana-Latitude-5490 NetworkManager[923]: <info>  [1767365466.9761] dhcp4 (wlp2s0):   plen 24 (255.255.255.0)
+Jan  2 20:21:06 archana-Latitude-5490 NetworkManager[923]: <info>  [1767365466.9761] dhcp4 (wlp2s0):   gateway 192.168.198.115
+Jan  2 20:21:06 archana-Latitude-5490 NetworkManager[923]: <info>  [1767365466.9762] dhcp4 (wlp2s0):   lease time 3599
+Jan  2 20:21:06 archana-Latitude-5490 NetworkManager[923]: <info>  [1767365466.9762] dhcp4 (wlp2s0):   hostname 'archana-Latitude-5490'
+Jan  2 20:21:06 archana-Latitude-5490 NetworkManager[923]: <info>  [1767365466.9763] dhcp4 (wlp2s0):   nameserver '192.168.198.115'
+Jan  2 20:21:06 archana-Latitude-5490 NetworkManager[923]: <info>  [1767365466.9763] dhcp4 (wlp2s0): state changed bound -> bound
+Jan  2 20:21:06 archana-Latitude-5490 dbus-daemon[919]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=923 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jan  2 20:21:06 archana-Latitude-5490 dhclient[28130]: bound to 192.168.198.55 -- renewal in 1654 seconds.
+Jan  2 20:21:06 archana-Latitude-5490 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jan  2 20:21:07 archana-Latitude-5490 dbus-daemon[919]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan  2 20:21:07 archana-Latitude-5490 systemd[1]: Started Network Manager Script Dispatcher Service.
+Jan  2 20:21:07 archana-Latitude-5490 nm-dispatcher: req:1 'dhcp4-change' [wlp2s0]: new request (1 scripts)
+Jan  2 20:21:07 archana-Latitude-5490 nm-dispatcher: req:1 'dhcp4-change' [wlp2s0]: start running ordered scripts...
+Jan  2 20:28:26 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [0102/202826.162300:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:153] open /home/archana/.config/google-chrome/Crash Reports/pending/d278c32e-e9ed-4e91-86e5-2c2ccef185d7.lock: File exists (17)
+Jan  2 20:39:01 archana-Latitude-5490 CRON[30913]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan  2 20:39:10 archana-Latitude-5490 systemd[1]: Starting Clean php session files...
+Jan  2 20:39:10 archana-Latitude-5490 systemd[1]: Started Clean php session files.
+Jan  2 20:43:26 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [0102/204326.162635:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:153] open /home/archana/.config/google-chrome/Crash Reports/pending/d278c32e-e9ed-4e91-86e5-2c2ccef185d7.lock: File exists (17)
+Jan  2 20:46:00 archana-Latitude-5490 NetworkManager[923]: <info>  [1767366960.2708] manager: sleep: sleep requested (sleeping: no  enabled: yes)
+Jan  2 20:46:00 archana-Latitude-5490 NetworkManager[923]: <info>  [1767366960.2710] device (70:5F:A3:6D:7F:8A): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Jan  2 20:46:00 archana-Latitude-5490 NetworkManager[923]: <info>  [1767366960.2713] manager: NetworkManager state is now ASLEEP
+Jan  2 20:46:00 archana-Latitude-5490 NetworkManager[923]: <info>  [1767366960.2716] device (wlp2s0): state change: activated -> deactivating (reason 'sleeping', sys-iface-state: 'managed')
+Jan  2 20:46:00 archana-Latitude-5490 whoopsie[1947]: [20:46:00] offline
+Jan  2 20:46:00 archana-Latitude-5490 NetworkManager[923]: <info>  [1767366960.2747] device (wlp2s0): state change: deactivating -> disconnected (reason 'sleeping', sys-iface-state: 'managed')
+Jan  2 20:46:00 archana-Latitude-5490 avahi-daemon[946]: Withdrawing address record for 2401:4900:58ce:2820:6431:72f4:3dad:c655 on wlp2s0.
+Jan  2 20:46:00 archana-Latitude-5490 avahi-daemon[946]: Withdrawing address record for 2401:4900:58ce:2820:f07b:4fbd:8b3:efec on wlp2s0.
+Jan  2 20:46:00 archana-Latitude-5490 avahi-daemon[946]: Leaving mDNS multicast group on interface wlp2s0.IPv6 with address 2401:4900:58ce:2820:f07b:4fbd:8b3:efec.
+Jan  2 20:46:00 archana-Latitude-5490 avahi-daemon[946]: Joining mDNS multicast group on interface wlp2s0.IPv6 with address fe80::27e2:7eab:c126:ff81.
+Jan  2 20:46:00 archana-Latitude-5490 avahi-daemon[946]: Registering new address record for fe80::27e2:7eab:c126:ff81 on wlp2s0.*.
+Jan  2 20:46:00 archana-Latitude-5490 avahi-daemon[946]: Withdrawing address record for fe80::27e2:7eab:c126:ff81 on wlp2s0.
+Jan  2 20:46:00 archana-Latitude-5490 avahi-daemon[946]: Leaving mDNS multicast group on interface wlp2s0.IPv6 with address fe80::27e2:7eab:c126:ff81.
+Jan  2 20:46:00 archana-Latitude-5490 avahi-daemon[946]: Interface wlp2s0.IPv6 no longer relevant for mDNS.
+Jan  2 20:46:00 archana-Latitude-5490 dbus-daemon[919]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=923 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jan  2 20:46:00 archana-Latitude-5490 gnome-shell[1222]: Failed to read EDID from 'eDP-1': No such file or directory
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3442:0102/204600.282645:ERROR:google_apis/gcm/engine/connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3442:0102/204600.282935:ERROR:google_apis/gcm/engine/connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Jan  2 20:46:00 archana-Latitude-5490 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jan  2 20:46:00 archana-Latitude-5490 gnome-shell[1222]: Screen lock is locked down, not locking
+Jan  2 20:46:00 archana-Latitude-5490 gnome-shell[1222]: Failed to read EDID from 'eDP-1': No such file or directory
+Jan  2 20:46:00 archana-Latitude-5490 gnome-shell[1222]: Failed to read EDID from 'eDP-1': No such file or directory
+Jan  2 20:46:00 archana-Latitude-5490 gnome-shell[1222]: Failed to set power save mode for output eDP-1: Permission denied
+Jan  2 20:46:00 archana-Latitude-5490 gnome-shell[1222]: Failed to read EDID from 'eDP-1': No such file or directory
+Jan  2 20:46:00 archana-Latitude-5490 dbus-daemon[919]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan  2 20:46:00 archana-Latitude-5490 systemd[1]: Started Network Manager Script Dispatcher Service.
+Jan  2 20:46:00 archana-Latitude-5490 nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Jan  2 20:46:00 archana-Latitude-5490 nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Jan  2 20:46:00 archana-Latitude-5490 gsd-color[1579]: failed to set screen _ICC_PROFILE: Failed to open file “/home/archana/.local/share/icc/edid-c817e2353123aff84a2bd02ae70170c5.icc”: Permission denied
+Jan  2 20:46:00 archana-Latitude-5490 NetworkManager[923]: <info>  [1767366960.3169] dhcp4 (wlp2s0): canceled DHCP transaction, DHCP client pid 28130
+Jan  2 20:46:00 archana-Latitude-5490 NetworkManager[923]: <info>  [1767366960.3169] dhcp4 (wlp2s0): state changed bound -> done
+Jan  2 20:46:00 archana-Latitude-5490 avahi-daemon[946]: Withdrawing address record for 192.168.198.55 on wlp2s0.
+Jan  2 20:46:00 archana-Latitude-5490 avahi-daemon[946]: Leaving mDNS multicast group on interface wlp2s0.IPv4 with address 192.168.198.55.
+Jan  2 20:46:00 archana-Latitude-5490 kernel: [50614.036123] wlp2s0: deauthenticating from be:2f:ab:53:51:e1 by local choice (Reason: 3=DEAUTH_LEAVING)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3442:0102/204600.323202:ERROR:google_apis/gcm/engine/connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3442:0102/204600.323297:ERROR:google_apis/gcm/engine/connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Jan  2 20:46:00 archana-Latitude-5490 avahi-daemon[946]: Interface wlp2s0.IPv4 no longer relevant for mDNS.
+Jan  2 20:46:00 archana-Latitude-5490 wpa_supplicant[924]: wlp2s0: CTRL-EVENT-DISCONNECTED bssid=be:2f:ab:53:51:e1 reason=3 locally_generated=1
+Jan  2 20:46:00 archana-Latitude-5490 whoopsie[1947]: [20:46:00] Cannot reach: https://daisy.ubuntu.com
+Jan  2 20:46:00 archana-Latitude-5490 NetworkManager[923]: <warn>  [1767366960.3528] sup-iface[0x55914a4b0370,wlp2s0]: connection disconnected (reason -3)
+Jan  2 20:46:00 archana-Latitude-5490 NetworkManager[923]: <info>  [1767366960.3529] device (wlp2s0): supplicant interface state: completed -> disconnected
+Jan  2 20:46:00 archana-Latitude-5490 NetworkManager[923]: <info>  [1767366960.3535] device (wlp2s0): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Jan  2 20:46:00 archana-Latitude-5490 nm-dispatcher: req:2 'down' [wlp2s0]: new request (1 scripts)
+Jan  2 20:46:00 archana-Latitude-5490 nm-dispatcher: req:2 'down' [wlp2s0]: start running ordered scripts...
+Jan  2 20:46:00 archana-Latitude-5490 wpa_supplicant[924]: wlp2s0: CTRL-EVENT-SCAN-FAILED ret=-100
+Jan  2 20:46:00 archana-Latitude-5490 gsd-sharing[3083]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.
+Jan  2 20:46:00 archana-Latitude-5490 gsd-sharing[3083]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.
+Jan  2 20:46:00 archana-Latitude-5490 gsd-sharing[3083]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.
+Jan  2 20:46:00 archana-Latitude-5490 wpa_supplicant[924]: nl80211: deinit ifname=p2p-dev-wlp2s0 disabled_11b_rates=0
+Jan  2 20:46:00 archana-Latitude-5490 gnome-shell[2768]: Object .Gjs_AppIndicatorIconActor__1 (0x556511710140), has been already finalized. Impossible to set any property to it.
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: == Stack trace for context 0x55650cff0320 ==
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #0 0x7ffe4ce1e370 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f9c8a7b5de0 @ 87)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #1 0x55650d383650 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f9c607c3780 @ 58)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #2 0x7ffe4ce1ef50 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #3 0x7ffe4ce1f010 b   self-hosted:916 (0x7f9c8a7f12b8 @ 367)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #4 0x7ffe4ce1f100 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f9c8a7d2230 @ 386)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #5 0x55650d3835c8 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f9c607b3450 @ 22)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #6 0x7ffe4ce1fd50 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #7 0x55650d383520 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f9c607ada28 @ 225)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #8 0x7ffe4ce20930 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #9 0x55650d3834a8 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f9c60784bc0 @ 37)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #10 0x55650d3833e8 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7f9c8a5592b8 @ 441)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #11 0x55650d383368 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7f9c8a559d58 @ 13)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #12 0x7ffe4ce21630 b   self-hosted:251 (0x7f9c8a7c4ab0 @ 223)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #13 0x55650d3832e8 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7f9c8a559cd0 @ 64)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #14 0x55650d383268 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7f9c8a559de0 @ 87)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #15 0x7ffe4ce22b30 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f9c8a7d2230 @ 386)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #16 0x7ffe4ce23340 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f9c8a4705e8 @ 254)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #17 0x7ffe4ce24020 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #18 0x55650d383128 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f9c8a4703c8 @ 40)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #19 0x7ffe4ce24c00 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #20 0x55650d383080 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f9c8a453a28 @ 188)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #21 0x7ffe4ce257e0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #22 0x55650d382fd0 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7f9c8a453ab0 @ 391)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #23 0x7ffe4ce263c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #24 0x55650d382f48 i   resource:///org/gnome/shell/ui/screenShield.js:734 (0x7f9c8a451560 @ 57)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #25 0x7ffe4ce26fb0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #26 0x7ffe4ce27770 b   self-hosted:918 (0x7f9c8a7f12b8 @ 394)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #27 0x7ffe4ce27860 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f9c8a7d2230 @ 386)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #28 0x55650d382eb0 i   resource:///org/gnome/shell/misc/loginManager.js:186 (0x7f9c8a512230 @ 92)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #29 0x7ffe4ce284d0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #30 0x7ffe4ce285b0 b   self-hosted:920 (0x7f9c8a7f12b8 @ 428)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #31 0x7ffe4ce286b0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f9c8a7d2230 @ 386)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #32 0x55650d382e10 i   resource:///org/gnome/gjs/modules/overrides/Gio.js:117 (0x7f9c8a7e0ab0 @ 39)
+Jan  2 20:46:00 archana-Latitude-5490 gnome-shell[2768]: Object .Gjs_AppIndicatorIconActor__1 (0x556511b70050), has been already finalized. Impossible to set any property to it.
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: == Stack trace for context 0x55650cff0320 ==
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #0 0x7ffe4ce1e370 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f9c8a7b5de0 @ 87)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #1 0x55650d383650 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f9c607c3780 @ 58)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #2 0x7ffe4ce1ef50 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #3 0x7ffe4ce1f010 b   self-hosted:916 (0x7f9c8a7f12b8 @ 367)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #4 0x7ffe4ce1f100 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f9c8a7d2230 @ 386)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #5 0x55650d3835c8 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f9c607b3450 @ 22)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #6 0x7ffe4ce1fd50 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #7 0x55650d383520 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f9c607ada28 @ 225)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #8 0x7ffe4ce20930 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #9 0x55650d3834a8 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f9c60784bc0 @ 37)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #10 0x55650d3833e8 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7f9c8a5592b8 @ 441)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #11 0x55650d383368 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7f9c8a559d58 @ 13)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #12 0x7ffe4ce21630 b   self-hosted:251 (0x7f9c8a7c4ab0 @ 223)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #13 0x55650d3832e8 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7f9c8a559cd0 @ 64)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #14 0x55650d383268 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7f9c8a559de0 @ 87)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #15 0x7ffe4ce22b30 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f9c8a7d2230 @ 386)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #16 0x7ffe4ce23340 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f9c8a4705e8 @ 254)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #17 0x7ffe4ce24020 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #18 0x55650d383128 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f9c8a4703c8 @ 40)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #19 0x7ffe4ce24c00 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #20 0x55650d383080 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f9c8a453a28 @ 188)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #21 0x7ffe4ce257e0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #22 0x55650d382fd0 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7f9c8a453ab0 @ 391)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #23 0x7ffe4ce263c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #24 0x55650d382f48 i   resource:///org/gnome/shell/ui/screenShield.js:734 (0x7f9c8a451560 @ 57)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #25 0x7ffe4ce26fb0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #26 0x7ffe4ce27770 b   self-hosted:918 (0x7f9c8a7f12b8 @ 394)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #27 0x7ffe4ce27860 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f9c8a7d2230 @ 386)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #28 0x55650d382eb0 i   resource:///org/gnome/shell/misc/loginManager.js:186 (0x7f9c8a512230 @ 92)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #29 0x7ffe4ce284d0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #30 0x7ffe4ce285b0 b   self-hosted:920 (0x7f9c8a7f12b8 @ 428)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #31 0x7ffe4ce286b0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f9c8a7d2230 @ 386)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #32 0x55650d382e10 i   resource:///org/gnome/gjs/modules/overrides/Gio.js:117 (0x7f9c8a7e0ab0 @ 39)
+Jan  2 20:46:00 archana-Latitude-5490 gnome-shell[2768]: Object .Gjs_AppIndicatorIconActor__1 (0x5565119e6840), has been already finalized. Impossible to set any property to it.
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: == Stack trace for context 0x55650cff0320 ==
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #0 0x7ffe4ce1e370 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f9c8a7b5de0 @ 87)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #1 0x55650d383650 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f9c607c3780 @ 58)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #2 0x7ffe4ce1ef50 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #3 0x7ffe4ce1f010 b   self-hosted:916 (0x7f9c8a7f12b8 @ 367)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #4 0x7ffe4ce1f100 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f9c8a7d2230 @ 386)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #5 0x55650d3835c8 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f9c607b3450 @ 22)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #6 0x7ffe4ce1fd50 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #7 0x55650d383520 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f9c607ada28 @ 225)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #8 0x7ffe4ce20930 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #9 0x55650d3834a8 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f9c60784bc0 @ 37)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #10 0x55650d3833e8 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7f9c8a5592b8 @ 441)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #11 0x55650d383368 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7f9c8a559d58 @ 13)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #12 0x7ffe4ce21630 b   self-hosted:251 (0x7f9c8a7c4ab0 @ 223)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #13 0x55650d3832e8 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7f9c8a559cd0 @ 64)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #14 0x55650d383268 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7f9c8a559de0 @ 87)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #15 0x7ffe4ce22b30 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f9c8a7d2230 @ 386)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #16 0x7ffe4ce23340 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f9c8a4705e8 @ 254)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #17 0x7ffe4ce24020 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #18 0x55650d383128 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f9c8a4703c8 @ 40)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #19 0x7ffe4ce24c00 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #20 0x55650d383080 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f9c8a453a28 @ 188)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #21 0x7ffe4ce257e0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #22 0x55650d382fd0 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7f9c8a453ab0 @ 391)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #23 0x7ffe4ce263c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #24 0x55650d382f48 i   resource:///org/gnome/shell/ui/screenShield.js:734 (0x7f9c8a451560 @ 57)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #25 0x7ffe4ce26fb0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #26 0x7ffe4ce27770 b   self-hosted:918 (0x7f9c8a7f12b8 @ 394)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #27 0x7ffe4ce27860 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f9c8a7d2230 @ 386)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #28 0x55650d382eb0 i   resource:///org/gnome/shell/misc/loginManager.js:186 (0x7f9c8a512230 @ 92)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #29 0x7ffe4ce284d0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f9c8a7b5de0 @ 71)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #30 0x7ffe4ce285b0 b   self-hosted:920 (0x7f9c8a7f12b8 @ 428)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #31 0x7ffe4ce286b0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f9c8a7d2230 @ 386)
+Jan  2 20:46:00 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: #32 0x55650d382e10 i   resource:///org/gnome/gjs/modules/overrides/Gio.js:117 (0x7f9c8a7e0ab0 @ 39)
+Jan  2 20:46:00 archana-Latitude-5490 gnome-software[4014]: no app for changed ubuntu-appindicators@ubuntu.com
+Jan  2 20:46:00 archana-Latitude-5490 gnome-software[4014]: no app for changed ubuntu-dock@ubuntu.com
+Jan  2 20:46:00 archana-Latitude-5490 wpa_supplicant[924]: nl80211: deinit ifname=wlp2s0 disabled_11b_rates=0
+Jan  2 20:46:03 archana-Latitude-5490 systemd[1]: Reached target Sleep.
+Jan  2 20:46:03 archana-Latitude-5490 systemd[1]: Starting Suspend...
+Jan  2 20:46:03 archana-Latitude-5490 systemd-sleep[31260]: Suspending system...
+Jan  2 20:46:03 archana-Latitude-5490 kernel: [50617.236092] PM: suspend entry (deep)
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.250599] Filesystems sync: 0.014 seconds
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.251705] Freezing user space processes ... (elapsed 0.003 seconds) done.
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.255189] OOM killer disabled.
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.255190] Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done.
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.257061] printk: Suspending console(s) (use no_console_suspend to debug)
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.286592] sd 2:0:0:0: [sda] Synchronizing SCSI cache
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.287053] sd 2:0:0:0: [sda] Stopping disk
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.451970] e1000e: EEE TX LPI TIMER: 00000011
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.684342] ACPI: EC: interrupt blocked
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.735477] ACPI: Preparing to enter system sleep state S3
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.751375] ACPI: EC: event blocked
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.751377] ACPI: EC: EC stopped
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.751379] PM: Saving platform NVS memory
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.751557] Disabling non-boot CPUs ...
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.753694] smpboot: CPU 1 is now offline
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.759030] smpboot: CPU 2 is now offline
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.763315] IRQ 127: no longer affine to CPU3
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.764349] smpboot: CPU 3 is now offline
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.768534] IRQ 131: no longer affine to CPU4
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.770456] smpboot: CPU 4 is now offline
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.773331] IRQ 123: no longer affine to CPU5
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.773341] IRQ 129: no longer affine to CPU5
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.774401] smpboot: CPU 5 is now offline
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.776874] IRQ 125: no longer affine to CPU6
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.776882] IRQ 130: no longer affine to CPU6
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.777900] smpboot: CPU 6 is now offline
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.780142] IRQ 122: no longer affine to CPU7
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.781181] smpboot: CPU 7 is now offline
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.785194] ACPI: Low-level resume complete
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.785245] ACPI: EC: EC started
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.785245] PM: Restoring platform NVS memory
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.786036] Enabling non-boot CPUs ...
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.786091] x86: Booting SMP configuration:
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.786092] smpboot: Booting Node 0 Processor 1 APIC 0x2
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.787010] CPU1 is up
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.787033] smpboot: Booting Node 0 Processor 2 APIC 0x4
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.787595] CPU2 is up
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.787617] smpboot: Booting Node 0 Processor 3 APIC 0x6
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.788196] CPU3 is up
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.788218] smpboot: Booting Node 0 Processor 4 APIC 0x1
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.788879] CPU4 is up
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.788904] smpboot: Booting Node 0 Processor 5 APIC 0x3
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.789532] CPU5 is up
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.789554] smpboot: Booting Node 0 Processor 6 APIC 0x5
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.790173] CPU6 is up
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.790195] smpboot: Booting Node 0 Processor 7 APIC 0x7
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.790821] CPU7 is up
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.793223] ACPI: Waking up from system sleep state S3
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50617.859011] ACPI: EC: interrupt unblocked
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50618.083244] ACPI: EC: event unblocked
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50618.083967] sd 2:0:0:0: [sda] Starting disk
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50618.084291] xhci_hcd 0000:00:14.0: xHC error in resume, USBSTS 0x411, Reinit
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50618.084296] usb usb1: root hub lost power or was reset
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50618.084299] usb usb2: root hub lost power or was reset
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50618.400429] ata3: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50618.402490] ata3.00: ACPI cmd ef/10:06:00:00:00:00 (SET FEATURES) succeeded
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50618.402492] ata3.00: ACPI cmd f5/00:00:00:00:00:00 (SECURITY FREEZE LOCK) filtered out
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50618.402494] ata3.00: ACPI cmd b1/c1:00:00:00:00:00 (DEVICE CONFIGURATION OVERLAY) filtered out
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50618.402919] ata3.00: ACPI cmd 00/00:00:00:00:00:a0 (NOP) rejected by device (Stat=0x51 Err=0x04)
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50618.408475] ata3.00: ACPI cmd ef/10:06:00:00:00:00 (SET FEATURES) succeeded
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50618.408489] ata3.00: ACPI cmd f5/00:00:00:00:00:00 (SECURITY FREEZE LOCK) filtered out
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50618.408500] ata3.00: ACPI cmd b1/c1:00:00:00:00:00 (DEVICE CONFIGURATION OVERLAY) filtered out
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50618.408907] ata3.00: ACPI cmd 00/00:00:00:00:00:a0 (NOP) rejected by device (Stat=0x51 Err=0x04)
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50618.411293] ata3.00: configured for UDMA/133
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50618.509267] usb 1-5: reset high-speed USB device number 2 using xhci_hcd
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50618.662855] restoring control 00000000-0000-0000-0000-000000000101/10/5
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50618.662856] restoring control 00000000-0000-0000-0000-000000000101/12/11
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50618.785533] usb 1-7: reset full-speed USB device number 3 using xhci_hcd
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50618.937059] acpi LNXPOWER:00: Turning OFF
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50618.937293] OOM killer enabled.
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50618.937295] Restarting tasks ... done.
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50618.947893] nouveau 0000:03:00.0: Enabling HDA controller
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50618.954742] Bluetooth: hci0: Bootloader revision 0.0 build 26 week 38 2015
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50618.957067] Bluetooth: hci0: Device revision is 16
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50618.957069] Bluetooth: hci0: Secure boot is enabled
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50618.957070] Bluetooth: hci0: OTP lock is enabled
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50618.957070] Bluetooth: hci0: API lock is enabled
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50618.957071] Bluetooth: hci0: Debug lock is disabled
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50618.957073] Bluetooth: hci0: Minimum firmware build 1 week 10 2014
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50618.957078] Bluetooth: hci0: Found device firmware: intel/ibt-12-16.sfi
+Jan  2 22:59:36 archana-Latitude-5490 bluetoothd[918]: Endpoint unregistered: sender=:1.84 path=/MediaEndpoint/A2DPSource
+Jan  2 22:59:36 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [0102/225936.160134:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:153] open /home/archana/.config/google-chrome/Crash Reports/pending/d278c32e-e9ed-4e91-86e5-2c2ccef185d7.lock: File exists (17)
+Jan  2 22:59:36 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [0102/225936.161143:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:153] open /home/archana/.config/google-chrome/Crash Reports/pending/d278c32e-e9ed-4e91-86e5-2c2ccef185d7.lock: File exists (17)
+Jan  2 22:59:36 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [0102/225936.161188:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:153] open /home/archana/.config/google-chrome/Crash Reports/pending/d278c32e-e9ed-4e91-86e5-2c2ccef185d7.lock: File exists (17)
+Jan  2 22:59:36 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [0102/225936.170336:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:153] open /home/archana/.config/google-chrome/Crash Reports/pending/d278c32e-e9ed-4e91-86e5-2c2ccef185d7.lock: File exists (17)
+Jan  2 22:59:36 archana-Latitude-5490 upowerd[1262]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7:1.1
+Jan  2 22:59:36 archana-Latitude-5490 bluetoothd[918]: Endpoint unregistered: sender=:1.84 path=/MediaEndpoint/A2DPSink
+Jan  2 22:59:36 archana-Latitude-5490 upowerd[1262]: unhandled action 'bind' on /sys/devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7:1.1
+Jan  2 22:59:36 archana-Latitude-5490 upowerd[1262]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7:1.0
+Jan  2 22:59:36 archana-Latitude-5490 systemd[1]: Starting Clean php session files...
+Jan  2 22:59:36 archana-Latitude-5490 systemd[1]: Starting Load/Save RF Kill Switch Status...
+Jan  2 22:59:36 archana-Latitude-5490 systemd[1]: bluetooth.target: Unit not needed anymore. Stopping.
+Jan  2 22:59:36 archana-Latitude-5490 systemd[1]: Stopped target Bluetooth.
+Jan  2 22:59:36 archana-Latitude-5490 systemd[1]: Reached target Bluetooth.
+Jan  2 22:59:36 archana-Latitude-5490 NetworkManager[923]: <info>  [1767374976.1924] bluez5: NAP: removed interface 14:4F:8A:29:8E:97
+Jan  2 22:59:36 archana-Latitude-5490 upowerd[1262]: unhandled action 'bind' on /sys/devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7:1.0
+Jan  2 22:59:36 archana-Latitude-5490 systemd-rfkill[31348]: Failed to open device rfkill12: No such device
+Jan  2 22:59:36 archana-Latitude-5490 systemd[1]: Started Load/Save RF Kill Switch Status.
+Jan  2 22:59:36 archana-Latitude-5490 gnome-shell[1222]: Failed to read EDID from 'eDP-1': No such file or directory
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50619.037739] thermal thermal_zone8: failed to read out thermal zone (-61)
+Jan  2 22:59:36 archana-Latitude-5490 gnome-shell[1222]: message repeated 2 times: [ Failed to read EDID from 'eDP-1': No such file or directory]
+Jan  2 22:59:36 archana-Latitude-5490 gsd-color[1579]: failed to set screen _ICC_PROFILE: Failed to open file “/home/archana/.local/share/icc/edid-c817e2353123aff84a2bd02ae70170c5.icc”: Permission denied
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50619.080360] nouveau 0000:03:00.0: bus: MMIO read of 00000000 FAULT at 6013d4 [ IBUS ]
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50619.115392] PM: suspend exit
+Jan  2 22:59:36 archana-Latitude-5490 systemd-sleep[31260]: System resumed.
+Jan  2 22:59:36 archana-Latitude-5490 systemd-sleep[31260]: /dev/sda:
+Jan  2 22:59:36 archana-Latitude-5490 systemd-sleep[31260]:  setting Advanced Power Management level to 0x80 (128)
+Jan  2 22:59:36 archana-Latitude-5490 systemd-sleep[31260]:  APM_level#011= 128
+Jan  2 22:59:36 archana-Latitude-5490 systemd-sleep[31260]: /dev/sda:
+Jan  2 22:59:36 archana-Latitude-5490 systemd-sleep[31260]:  setting standby to 36 (3 minutes)
+Jan  2 22:59:36 archana-Latitude-5490 systemd[1]: Started Suspend.
+Jan  2 22:59:36 archana-Latitude-5490 systemd[1]: sleep.target: Unit not needed anymore. Stopping.
+Jan  2 22:59:36 archana-Latitude-5490 systemd[1]: Stopped target Sleep.
+Jan  2 22:59:36 archana-Latitude-5490 systemd[1]: Reached target Suspend.
+Jan  2 22:59:36 archana-Latitude-5490 systemd[1]: suspend.target: Unit not needed anymore. Stopping.
+Jan  2 22:59:36 archana-Latitude-5490 systemd[1]: Stopped target Suspend.
+Jan  2 22:59:36 archana-Latitude-5490 NetworkManager[923]: <info>  [1767374976.3822] manager: sleep: wake requested (sleeping: yes  enabled: yes)
+Jan  2 22:59:36 archana-Latitude-5490 NetworkManager[923]: <info>  [1767374976.3823] device (enp0s31f6): state change: unavailable -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Jan  2 22:59:36 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3440:0102/225936.392243:ERROR:components/sync/engine/get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jan  2 22:59:36 archana-Latitude-5490 gnome-shell[1222]: Failed to set power save mode for output eDP-1: Permission denied
+Jan  2 22:59:36 archana-Latitude-5490 systemd[1]: Started Clean php session files.
+Jan  2 22:59:36 archana-Latitude-5490 kernel: [50619.248089] e1000e: enp0s31f6 NIC Link is Down
+Jan  2 22:59:36 archana-Latitude-5490 NetworkManager[923]: <info>  [1767374976.4636] device (enp0s31f6): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Jan  2 22:59:36 archana-Latitude-5490 NetworkManager[923]: <info>  [1767374976.6559] device (wlp2s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Jan  2 22:59:36 archana-Latitude-5490 NetworkManager[923]: <info>  [1767374976.8866] manager: NetworkManager state is now CONNECTED_LOCAL
+Jan  2 22:59:36 archana-Latitude-5490 NetworkManager[923]: <info>  [1767374976.9493] sup-iface[0x55914a54c830,wlp2s0]: supports 5 scan SSIDs
+Jan  2 22:59:36 archana-Latitude-5490 NetworkManager[923]: <info>  [1767374976.9499] device (wlp2s0): supplicant interface state: starting -> ready
+Jan  2 22:59:36 archana-Latitude-5490 NetworkManager[923]: <info>  [1767374976.9499] device (wlp2s0): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Jan  2 22:59:37 archana-Latitude-5490 kernel: [50620.487944] Bluetooth: hci0: Waiting for firmware download to complete
+Jan  2 22:59:37 archana-Latitude-5490 kernel: [50620.488771] Bluetooth: hci0: Firmware loaded in 1504880 usecs
+Jan  2 22:59:37 archana-Latitude-5490 kernel: [50620.488787] Bluetooth: hci0: Waiting for device to boot
+Jan  2 22:59:37 archana-Latitude-5490 kernel: [50620.500764] Bluetooth: hci0: Device booted in 11709 usecs
+Jan  2 22:59:37 archana-Latitude-5490 kernel: [50620.500766] Bluetooth: hci0: Found Intel DDC parameters: intel/ibt-12-16.ddc
+Jan  2 22:59:37 archana-Latitude-5490 kernel: [50620.503821] Bluetooth: hci0: Applying Intel DDC parameters completed
+Jan  2 22:59:37 archana-Latitude-5490 NetworkManager[923]: <info>  [1767374977.7786] bluez5: NAP: added interface 14:4F:8A:29:8E:97
+Jan  2 22:59:37 archana-Latitude-5490 bluetoothd[918]: Endpoint registered: sender=:1.84 path=/MediaEndpoint/A2DPSource
+Jan  2 22:59:37 archana-Latitude-5490 bluetoothd[918]: Endpoint registered: sender=:1.84 path=/MediaEndpoint/A2DPSink
+Jan  2 22:59:37 archana-Latitude-5490 NetworkManager[923]: <info>  [1767374977.8204] keyfile: add connection in-memory (47147c6c-1329-4ca2-a033-7a92c50dea97,"Redmi 9reconnectnb2 Network")
+Jan  2 22:59:37 archana-Latitude-5490 NetworkManager[923]: <info>  [1767374977.8213] bluez: BT device Redmi 9reconnectnb2 (70:5F:A3:6D:7F:8A) added (NAP)
+Jan  2 22:59:37 archana-Latitude-5490 NetworkManager[923]: <info>  [1767374977.8220] manager: (70:5F:A3:6D:7F:8A): new Bluetooth device (/org/freedesktop/NetworkManager/Devices/15)
+Jan  2 22:59:37 archana-Latitude-5490 NetworkManager[923]: <info>  [1767374977.8223] device (70:5F:A3:6D:7F:8A): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Jan  2 22:59:37 archana-Latitude-5490 NetworkManager[923]: <info>  [1767374977.8265] device (70:5F:A3:6D:7F:8A): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+Jan  2 22:59:37 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3438:0102/225937.899134:ERROR:components/sync/engine/get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jan  2 22:59:37 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3440:0102/225937.915110:ERROR:components/sync/engine/get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jan  2 22:59:38 archana-Latitude-5490 ModemManager[938]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:1c.2/0000:02:00.0': not supported by any plugin
+Jan  2 22:59:38 archana-Latitude-5490 ModemManager[938]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:1f.6': not supported by any plugin
+Jan  2 22:59:39 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3438:0102/225939.422631:ERROR:components/sync/engine/get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jan  2 22:59:39 archana-Latitude-5490 gnome-software[4014]: no app for changed ubuntu-dock@ubuntu.com
+Jan  2 22:59:39 archana-Latitude-5490 gnome-software[4014]: no app for changed ubuntu-appindicators@ubuntu.com
+Jan  2 22:59:39 archana-Latitude-5490 gvfsd-metadata[3277]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Jan  2 22:59:39 archana-Latitude-5490 gvfsd-metadata[3277]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Jan  2 22:59:39 archana-Latitude-5490 gnome-shell[2768]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.76/org/ayatana/NotificationItem/software_update_available
+Jan  2 22:59:39 archana-Latitude-5490 gnome-shell[2768]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.76/org/ayatana/NotificationItem/livepatch
+Jan  2 22:59:39 archana-Latitude-5490 gnome-shell[2768]: [AppIndicatorSupport-DEBUG] Using Brute-force mode for StatusNotifierItem :1.74/StatusNotifierItem
+Jan  2 22:59:39 archana-Latitude-5490 gnome-shell[2768]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.74/StatusNotifierItem
+Jan  2 22:59:40 archana-Latitude-5490 gnome-shell[2768]: Received property WindowId with type u does not match expected type i in the expected interface
+Jan  2 22:59:40 archana-Latitude-5490 gnome-shell[2768]: [AppIndicatorSupport-WARN] while calling AboutToShow: Gio.IOErrorEnum: GDBus.Error:org.freedesktop.dbus.errors.UnknownMethod: The method `com.canonical.dbusmenu.AboutToShow' does not exist on this object.
+Jan  2 22:59:41 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3438:0102/225941.658082:ERROR:components/sync/engine/get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jan  2 22:59:43 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3438:0102/225943.181628:ERROR:components/sync/engine/get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jan  2 22:59:47 archana-Latitude-5490 gnome-shell[2768]: [AppIndicatorSupport-WARN] while calling AboutToShow: Gio.IOErrorEnum: GDBus.Error:org.freedesktop.dbus.errors.UnknownMethod: The method `com.canonical.dbusmenu.AboutToShow' does not exist on this object.
+Jan  2 22:59:48 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3440:0102/225948.816924:ERROR:components/sync/engine/get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jan  2 22:59:51 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3440:0102/225951.041822:ERROR:components/sync/engine/get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jan  2 22:59:57 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3449:0102/225957.267452:ERROR:components/sync/engine/get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.2036] policy: auto-activating connection 'Sandhya'
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.2047] device (wlp2s0): Activation: starting connection 'Sandhya' (a2595dba-efef-4bfe-a479-44d75613d827)
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.2049] device (wlp2s0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.2051] manager: NetworkManager state is now CONNECTING
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.2057] device (wlp2s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.2059] device (wlp2s0): Activation: (wifi) access point 'Sandhya' has security, but secrets are required.
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.2059] device (wlp2s0): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.2109] device (wlp2s0): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.2113] device (wlp2s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.2116] device (wlp2s0): Activation: (wifi) connection 'Sandhya' has security, and secrets exist.  No new secrets needed.
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.2116] Config: added 'ssid' value 'Sandhya'
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.2116] Config: added 'scan_ssid' value '1'
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.2116] Config: added 'bgscan' value 'simple:30:-80:86400'
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.2117] Config: added 'key_mgmt' value 'WPA-PSK'
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.2117] Config: added 'auth_alg' value 'OPEN'
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.2117] Config: added 'psk' value '<hidden>'
+Jan  2 23:00:04 archana-Latitude-5490 wpa_supplicant[924]: wlp2s0: SME: Trying to authenticate with be:2f:ab:53:51:e1 (SSID='Sandhya' freq=2437 MHz)
+Jan  2 23:00:04 archana-Latitude-5490 kernel: [50647.005833] wlp2s0: authenticate with be:2f:ab:53:51:e1
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.2280] device (wlp2s0): supplicant interface state: ready -> authenticating
+Jan  2 23:00:04 archana-Latitude-5490 kernel: [50647.013423] wlp2s0: send auth to be:2f:ab:53:51:e1 (try 1/3)
+Jan  2 23:00:04 archana-Latitude-5490 wpa_supplicant[924]: wlp2s0: Trying to associate with be:2f:ab:53:51:e1 (SSID='Sandhya' freq=2437 MHz)
+Jan  2 23:00:04 archana-Latitude-5490 kernel: [50647.022421] wlp2s0: authenticated
+Jan  2 23:00:04 archana-Latitude-5490 kernel: [50647.025323] wlp2s0: associate with be:2f:ab:53:51:e1 (try 1/3)
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.2423] device (wlp2s0): supplicant interface state: authenticating -> associating
+Jan  2 23:00:04 archana-Latitude-5490 kernel: [50647.031476] wlp2s0: RX AssocResp from be:2f:ab:53:51:e1 (capab=0x411 status=0 aid=1)
+Jan  2 23:00:04 archana-Latitude-5490 wpa_supplicant[924]: wlp2s0: Associated with be:2f:ab:53:51:e1
+Jan  2 23:00:04 archana-Latitude-5490 wpa_supplicant[924]: wlp2s0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Jan  2 23:00:04 archana-Latitude-5490 kernel: [50647.035734] wlp2s0: associated
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.2559] device (wlp2s0): supplicant interface state: associating -> associated
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.2735] device (wlp2s0): supplicant interface state: associated -> 4-way handshake
+Jan  2 23:00:04 archana-Latitude-5490 wpa_supplicant[924]: wlp2s0: WPA: Key negotiation completed with be:2f:ab:53:51:e1 [PTK=CCMP GTK=CCMP]
+Jan  2 23:00:04 archana-Latitude-5490 wpa_supplicant[924]: wlp2s0: CTRL-EVENT-CONNECTED - Connection to be:2f:ab:53:51:e1 completed [id=0 id_str=]
+Jan  2 23:00:04 archana-Latitude-5490 kernel: [50647.063961] IPv6: ADDRCONF(NETDEV_CHANGE): wlp2s0: link becomes ready
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.2862] device (wlp2s0): supplicant interface state: 4-way handshake -> completed
+Jan  2 23:00:04 archana-Latitude-5490 wpa_supplicant[924]: wlp2s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-28 noise=9999 txrate=1000
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.2863] device (wlp2s0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful.  Connected to wireless network 'Sandhya'.
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.2866] device (wlp2s0): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.2878] dhcp4 (wlp2s0): activation: beginning transaction (timeout in 45 seconds)
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.2926] dhcp4 (wlp2s0): dhclient started with pid 31517
+Jan  2 23:00:04 archana-Latitude-5490 avahi-daemon[946]: Joining mDNS multicast group on interface wlp2s0.IPv6 with address fe80::27e2:7eab:c126:ff81.
+Jan  2 23:00:04 archana-Latitude-5490 avahi-daemon[946]: New relevant interface wlp2s0.IPv6 for mDNS.
+Jan  2 23:00:04 archana-Latitude-5490 avahi-daemon[946]: Registering new address record for fe80::27e2:7eab:c126:ff81 on wlp2s0.*.
+Jan  2 23:00:04 archana-Latitude-5490 dhclient[31517]: DHCPDISCOVER on wlp2s0 to 255.255.255.255 port 67 interval 3 (xid=0x4db8502f)
+Jan  2 23:00:04 archana-Latitude-5490 dhclient[31517]: DHCPREQUEST of 192.168.198.55 on wlp2s0 to 255.255.255.255 port 67 (xid=0x2f50b84d)
+Jan  2 23:00:04 archana-Latitude-5490 dhclient[31517]: DHCPOFFER of 192.168.198.55 from 192.168.198.115
+Jan  2 23:00:04 archana-Latitude-5490 dhclient[31517]: DHCPACK of 192.168.198.55 from 192.168.198.115
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.4210] dhcp4 (wlp2s0):   address 192.168.198.55
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.4212] dhcp4 (wlp2s0):   plen 24 (255.255.255.0)
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.4213] dhcp4 (wlp2s0):   gateway 192.168.198.115
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.4214] dhcp4 (wlp2s0):   lease time 3599
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.4214] dhcp4 (wlp2s0):   hostname 'archana-Latitude-5490'
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.4215] dhcp4 (wlp2s0):   nameserver '192.168.198.115'
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.4215] dhcp4 (wlp2s0): state changed unknown -> bound
+Jan  2 23:00:04 archana-Latitude-5490 avahi-daemon[946]: Joining mDNS multicast group on interface wlp2s0.IPv4 with address 192.168.198.55.
+Jan  2 23:00:04 archana-Latitude-5490 dhclient[31517]: bound to 192.168.198.55 -- renewal in 1632 seconds.
+Jan  2 23:00:04 archana-Latitude-5490 avahi-daemon[946]: New relevant interface wlp2s0.IPv4 for mDNS.
+Jan  2 23:00:04 archana-Latitude-5490 avahi-daemon[946]: Registering new address record for 192.168.198.55 on wlp2s0.IPv4.
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.4413] device (wlp2s0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.4425] device (wlp2s0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.4430] device (wlp2s0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.4435] manager: NetworkManager state is now CONNECTED_LOCAL
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.4484] manager: NetworkManager state is now CONNECTED_SITE
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.4487] policy: set 'Sandhya' (wlp2s0) as default for IPv4 routing and DNS
+Jan  2 23:00:04 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375004.4499] device (wlp2s0): Activation: successful, device activated.
+Jan  2 23:00:04 archana-Latitude-5490 dbus-daemon[919]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=923 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jan  2 23:00:04 archana-Latitude-5490 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jan  2 23:00:04 archana-Latitude-5490 gsd-sharing[3083]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.
+Jan  2 23:00:04 archana-Latitude-5490 gsd-sharing[3083]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.
+Jan  2 23:00:04 archana-Latitude-5490 gsd-sharing[3083]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.
+Jan  2 23:00:04 archana-Latitude-5490 dbus-daemon[919]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan  2 23:00:04 archana-Latitude-5490 systemd[1]: Started Network Manager Script Dispatcher Service.
+Jan  2 23:00:04 archana-Latitude-5490 nm-dispatcher: req:1 'up' [wlp2s0]: new request (1 scripts)
+Jan  2 23:00:04 archana-Latitude-5490 nm-dispatcher: req:1 'up' [wlp2s0]: start running ordered scripts...
+Jan  2 23:00:05 archana-Latitude-5490 avahi-daemon[946]: Leaving mDNS multicast group on interface wlp2s0.IPv6 with address fe80::27e2:7eab:c126:ff81.
+Jan  2 23:00:05 archana-Latitude-5490 avahi-daemon[946]: Joining mDNS multicast group on interface wlp2s0.IPv6 with address 2401:4900:58ce:2820:f07b:4fbd:8b3:efec.
+Jan  2 23:00:05 archana-Latitude-5490 avahi-daemon[946]: Registering new address record for 2401:4900:58ce:2820:f07b:4fbd:8b3:efec on wlp2s0.*.
+Jan  2 23:00:05 archana-Latitude-5490 avahi-daemon[946]: Withdrawing address record for fe80::27e2:7eab:c126:ff81 on wlp2s0.
+Jan  2 23:00:05 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375005.9157] policy: set 'Sandhya' (wlp2s0) as default for IPv6 routing and DNS
+Jan  2 23:00:05 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3452:0102/230005.918406:ERROR:components/sync/engine/get_updates_processor.cc:270] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+Jan  2 23:00:06 archana-Latitude-5490 NetworkManager[923]: <info>  [1767375006.4691] manager: NetworkManager state is now CONNECTED_GLOBAL
+Jan  2 23:00:06 archana-Latitude-5490 nm-dispatcher: req:2 'connectivity-change': new request (1 scripts)
+Jan  2 23:00:06 archana-Latitude-5490 nm-dispatcher: req:2 'connectivity-change': start running ordered scripts...
+Jan  2 23:00:07 archana-Latitude-5490 avahi-daemon[946]: Registering new address record for 2401:4900:58ce:2820:6431:72f4:3dad:c655 on wlp2s0.*.
+Jan  2 23:00:09 archana-Latitude-5490 systemd-resolved[773]: Using degraded feature set (UDP) for DNS server 192.168.198.115.
+Jan  2 23:00:09 archana-Latitude-5490 whoopsie[1947]: [23:00:09] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/13
+Jan  2 23:00:09 archana-Latitude-5490 whoopsie[1947]: [23:00:09] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/13
+Jan  2 23:00:09 archana-Latitude-5490 whoopsie[1947]: [23:00:09] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/13
+Jan  2 23:00:09 archana-Latitude-5490 whoopsie[1947]: [23:00:09] online
+Jan  2 23:01:37 archana-Latitude-5490 systemd-resolved[773]: Using degraded feature set (UDP) for DNS server 2401:4900:58ce:2820::6e.
+Jan  2 23:03:27 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3463:3468:0102/230327.516269:ERROR:net/socket/ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -101
+Jan  2 23:08:46 archana-Latitude-5490 systemd-resolved[773]: Grace period over, resuming full feature set (UDP+EDNS0) for DNS server 2401:4900:58ce:2820::6e.
+Jan  2 23:08:47 archana-Latitude-5490 systemd-resolved[773]: Using degraded feature set (UDP) for DNS server 2401:4900:58ce:2820::6e.
+Jan  2 23:09:01 archana-Latitude-5490 CRON[32186]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan  2 23:09:03 archana-Latitude-5490 systemd[1]: Starting Clean php session files...
+Jan  2 23:09:03 archana-Latitude-5490 systemd[1]: Started Clean php session files.
+Jan  2 23:12:20 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3463:3468:0102/231220.370817:ERROR:net/socket/ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -101
+Jan  2 23:12:49 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: Gtk-Message: 23:12:49.654: GtkDialog mapped without a transient parent. This is discouraged.
+Jan  2 23:12:49 archana-Latitude-5490 dbus-daemon[919]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.233' (uid=1000 pid=3397 comm="/opt/google/chrome/chrome " label="unconfined")
+Jan  2 23:12:49 archana-Latitude-5490 systemd[1]: Starting Hostname Service...
+Jan  2 23:12:49 archana-Latitude-5490 dbus-daemon[919]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Jan  2 23:12:49 archana-Latitude-5490 systemd[1]: Started Hostname Service.
+Jan  2 23:13:34 archana-Latitude-5490 wpa_supplicant[924]: wlp2s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-19 noise=9999 txrate=72200
+Jan  2 23:14:36 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [0102/231436.160677:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:153] open /home/archana/.config/google-chrome/Crash Reports/pending/d278c32e-e9ed-4e91-86e5-2c2ccef185d7.lock: File exists (17)
+Jan  2 23:17:01 archana-Latitude-5490 CRON[32569]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan  2 23:27:16 archana-Latitude-5490 dhclient[31517]: DHCPREQUEST of 192.168.198.55 on wlp2s0 to 192.168.198.115 port 67 (xid=0x2f50b84d)
+Jan  2 23:27:16 archana-Latitude-5490 dhclient[31517]: DHCPACK of 192.168.198.55 from 192.168.198.115
+Jan  2 23:27:16 archana-Latitude-5490 NetworkManager[923]: <info>  [1767376636.5187] dhcp4 (wlp2s0):   address 192.168.198.55
+Jan  2 23:27:16 archana-Latitude-5490 NetworkManager[923]: <info>  [1767376636.5187] dhcp4 (wlp2s0):   plen 24 (255.255.255.0)
+Jan  2 23:27:16 archana-Latitude-5490 dbus-daemon[919]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=923 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jan  2 23:27:16 archana-Latitude-5490 NetworkManager[923]: <info>  [1767376636.5187] dhcp4 (wlp2s0):   gateway 192.168.198.115
+Jan  2 23:27:16 archana-Latitude-5490 NetworkManager[923]: <info>  [1767376636.5188] dhcp4 (wlp2s0):   lease time 3599
+Jan  2 23:27:16 archana-Latitude-5490 NetworkManager[923]: <info>  [1767376636.5188] dhcp4 (wlp2s0):   hostname 'archana-Latitude-5490'
+Jan  2 23:27:16 archana-Latitude-5490 dhclient[31517]: bound to 192.168.198.55 -- renewal in 1702 seconds.
+Jan  2 23:27:16 archana-Latitude-5490 NetworkManager[923]: <info>  [1767376636.5188] dhcp4 (wlp2s0):   nameserver '192.168.198.115'
+Jan  2 23:27:16 archana-Latitude-5490 NetworkManager[923]: <info>  [1767376636.5188] dhcp4 (wlp2s0): state changed bound -> bound
+Jan  2 23:27:16 archana-Latitude-5490 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jan  2 23:27:16 archana-Latitude-5490 dbus-daemon[919]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan  2 23:27:16 archana-Latitude-5490 systemd[1]: Started Network Manager Script Dispatcher Service.
+Jan  2 23:27:16 archana-Latitude-5490 nm-dispatcher: req:1 'dhcp4-change' [wlp2s0]: new request (1 scripts)
+Jan  2 23:27:16 archana-Latitude-5490 nm-dispatcher: req:1 'dhcp4-change' [wlp2s0]: start running ordered scripts...
+Jan  2 23:29:36 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [0102/232936.161431:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:153] open /home/archana/.config/google-chrome/Crash Reports/pending/d278c32e-e9ed-4e91-86e5-2c2ccef185d7.lock: File exists (17)
+Jan  2 23:33:45 archana-Latitude-5490 systemd-resolved[773]: Grace period over, resuming full feature set (UDP+EDNS0) for DNS server 192.168.198.115.
+Jan  2 23:33:45 archana-Latitude-5490 systemd-resolved[773]: Using degraded feature set (UDP) for DNS server 192.168.198.115.
+Jan  2 23:33:46 archana-Latitude-5490 systemd-timesyncd[770]: Synchronized to time server [2620:2d:4000:1::41]:123 (ntp.ubuntu.com).
+Jan  2 23:39:01 archana-Latitude-5490 CRON[640]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan  2 23:39:09 archana-Latitude-5490 systemd[1]: Starting Clean php session files...
+Jan  2 23:39:09 archana-Latitude-5490 systemd[1]: Started Clean php session files.
+Jan  2 23:44:36 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [0102/234436.162151:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:153] open /home/archana/.config/google-chrome/Crash Reports/pending/d278c32e-e9ed-4e91-86e5-2c2ccef185d7.lock: File exists (17)
+Jan  2 23:55:39 archana-Latitude-5490 dhclient[31517]: DHCPREQUEST of 192.168.198.55 on wlp2s0 to 192.168.198.115 port 67 (xid=0x2f50b84d)
+Jan  2 23:55:39 archana-Latitude-5490 dhclient[31517]: DHCPACK of 192.168.198.55 from 192.168.198.115
+Jan  2 23:55:39 archana-Latitude-5490 NetworkManager[923]: <info>  [1767378339.1370] dhcp4 (wlp2s0):   address 192.168.198.55
+Jan  2 23:55:39 archana-Latitude-5490 NetworkManager[923]: <info>  [1767378339.1370] dhcp4 (wlp2s0):   plen 24 (255.255.255.0)
+Jan  2 23:55:39 archana-Latitude-5490 NetworkManager[923]: <info>  [1767378339.1371] dhcp4 (wlp2s0):   gateway 192.168.198.115
+Jan  2 23:55:39 archana-Latitude-5490 dbus-daemon[919]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=923 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jan  2 23:55:39 archana-Latitude-5490 NetworkManager[923]: <info>  [1767378339.1371] dhcp4 (wlp2s0):   lease time 3599
+Jan  2 23:55:39 archana-Latitude-5490 NetworkManager[923]: <info>  [1767378339.1371] dhcp4 (wlp2s0):   hostname 'archana-Latitude-5490'
+Jan  2 23:55:39 archana-Latitude-5490 dhclient[31517]: bound to 192.168.198.55 -- renewal in 1748 seconds.
+Jan  2 23:55:39 archana-Latitude-5490 NetworkManager[923]: <info>  [1767378339.1371] dhcp4 (wlp2s0):   nameserver '192.168.198.115'
+Jan  2 23:55:39 archana-Latitude-5490 NetworkManager[923]: <info>  [1767378339.1372] dhcp4 (wlp2s0): state changed bound -> bound
+Jan  2 23:55:39 archana-Latitude-5490 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jan  2 23:55:39 archana-Latitude-5490 dbus-daemon[919]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan  2 23:55:39 archana-Latitude-5490 systemd[1]: Started Network Manager Script Dispatcher Service.
+Jan  2 23:55:39 archana-Latitude-5490 nm-dispatcher: req:1 'dhcp4-change' [wlp2s0]: new request (1 scripts)
+Jan  2 23:55:39 archana-Latitude-5490 nm-dispatcher: req:1 'dhcp4-change' [wlp2s0]: start running ordered scripts...
+Jan  2 23:59:36 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [0102/235936.162531:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:153] open /home/archana/.config/google-chrome/Crash Reports/pending/d278c32e-e9ed-4e91-86e5-2c2ccef185d7.lock: File exists (17)
+Jan  3 00:09:01 archana-Latitude-5490 CRON[1826]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan  3 00:09:09 archana-Latitude-5490 systemd[1]: Starting Clean php session files...
+Jan  3 00:09:09 archana-Latitude-5490 systemd[1]: Started Clean php session files.
+Jan  3 00:14:36 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [0103/001436.163214:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:153] open /home/archana/.config/google-chrome/Crash Reports/pending/d278c32e-e9ed-4e91-86e5-2c2ccef185d7.lock: File exists (17)
+Jan  3 00:14:48 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3460:3460:0103/001448.232242:ERROR:gpu/command_buffer/service/shared_image/shared_image_manager.cc:397] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+Jan  3 00:16:20 archana-Latitude-5490 snapd[939]: storehelpers.go:916: cannot refresh: snap has no updates available: "bare", "code", "core18", "core20", "core22", "core24", "gnome-3-34-1804", "gnome-3-38-2004", "gnome-42-2204", "gnome-46-2404", "gnome-calculator", "gnome-characters", "gnome-logs", "gnome-system-monitor", "gtk-common-themes", "mesa-2404", "snapd"
+Jan  3 00:17:02 archana-Latitude-5490 CRON[2142]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan  3 00:24:47 archana-Latitude-5490 dhclient[31517]: DHCPREQUEST of 192.168.198.55 on wlp2s0 to 192.168.198.115 port 67 (xid=0x2f50b84d)
+Jan  3 00:24:48 archana-Latitude-5490 dhclient[31517]: DHCPACK of 192.168.198.55 from 192.168.198.115
+Jan  3 00:24:48 archana-Latitude-5490 NetworkManager[923]: <info>  [1767380088.4982] dhcp4 (wlp2s0):   address 192.168.198.55
+Jan  3 00:24:48 archana-Latitude-5490 NetworkManager[923]: <info>  [1767380088.4983] dhcp4 (wlp2s0):   plen 24 (255.255.255.0)
+Jan  3 00:24:48 archana-Latitude-5490 NetworkManager[923]: <info>  [1767380088.4983] dhcp4 (wlp2s0):   gateway 192.168.198.115
+Jan  3 00:24:48 archana-Latitude-5490 NetworkManager[923]: <info>  [1767380088.4984] dhcp4 (wlp2s0):   lease time 3599
+Jan  3 00:24:48 archana-Latitude-5490 NetworkManager[923]: <info>  [1767380088.4984] dhcp4 (wlp2s0):   hostname 'archana-Latitude-5490'
+Jan  3 00:24:48 archana-Latitude-5490 NetworkManager[923]: <info>  [1767380088.4985] dhcp4 (wlp2s0):   nameserver '192.168.198.115'
+Jan  3 00:24:48 archana-Latitude-5490 NetworkManager[923]: <info>  [1767380088.4985] dhcp4 (wlp2s0): state changed bound -> bound
+Jan  3 00:24:48 archana-Latitude-5490 dbus-daemon[919]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=923 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jan  3 00:24:48 archana-Latitude-5490 dhclient[31517]: bound to 192.168.198.55 -- renewal in 1674 seconds.
+Jan  3 00:24:48 archana-Latitude-5490 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jan  3 00:24:48 archana-Latitude-5490 dbus-daemon[919]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan  3 00:24:48 archana-Latitude-5490 systemd[1]: Started Network Manager Script Dispatcher Service.
+Jan  3 00:24:48 archana-Latitude-5490 nm-dispatcher: req:1 'dhcp4-change' [wlp2s0]: new request (1 scripts)
+Jan  3 00:24:48 archana-Latitude-5490 nm-dispatcher: req:1 'dhcp4-change' [wlp2s0]: start running ordered scripts...
+Jan  3 00:29:36 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [0103/002936.163671:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:153] open /home/archana/.config/google-chrome/Crash Reports/pending/d278c32e-e9ed-4e91-86e5-2c2ccef185d7.lock: File exists (17)
+Jan  3 00:36:52 archana-Latitude-5490 systemd-resolved[773]: Grace period over, resuming full feature set (UDP+EDNS0) for DNS server 192.168.198.115.
+Jan  3 00:39:01 archana-Latitude-5490 CRON[2432]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan  3 00:39:09 archana-Latitude-5490 systemd[1]: Starting Clean php session files...
+Jan  3 00:39:09 archana-Latitude-5490 systemd[1]: Started Clean php session files.
+Jan  3 00:44:05 archana-Latitude-5490 systemd-resolved[773]: Using degraded feature set (UDP) for DNS server 192.168.198.115.
+Jan  3 00:44:36 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [0103/004436.164083:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:153] open /home/archana/.config/google-chrome/Crash Reports/pending/d278c32e-e9ed-4e91-86e5-2c2ccef185d7.lock: File exists (17)
+Jan  3 00:49:33 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3442:0103/004933.199714:ERROR:google_apis/gcm/engine/registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Jan  3 00:50:02 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3442:0103/005002.269080:ERROR:google_apis/gcm/engine/registration_request.cc:275] Registration URL fetching failed.
+Jan  3 00:50:24 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3442:0103/005024.094527:ERROR:google_apis/gcm/engine/registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Jan  3 00:50:45 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3442:0103/005045.357687:ERROR:google_apis/gcm/engine/registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Jan  3 00:50:51 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3442:0103/005051.028908:ERROR:google_apis/gcm/engine/registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Jan  3 00:51:42 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3442:0103/005142.704263:ERROR:google_apis/gcm/engine/registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Jan  3 00:52:42 archana-Latitude-5490 dhclient[31517]: DHCPREQUEST of 192.168.198.55 on wlp2s0 to 192.168.198.115 port 67 (xid=0x2f50b84d)
+Jan  3 00:52:42 archana-Latitude-5490 dhclient[31517]: DHCPACK of 192.168.198.55 from 192.168.198.115
+Jan  3 00:52:42 archana-Latitude-5490 NetworkManager[923]: <info>  [1767381762.1352] dhcp4 (wlp2s0):   address 192.168.198.55
+Jan  3 00:52:42 archana-Latitude-5490 NetworkManager[923]: <info>  [1767381762.1352] dhcp4 (wlp2s0):   plen 24 (255.255.255.0)
+Jan  3 00:52:42 archana-Latitude-5490 NetworkManager[923]: <info>  [1767381762.1352] dhcp4 (wlp2s0):   gateway 192.168.198.115
+Jan  3 00:52:42 archana-Latitude-5490 NetworkManager[923]: <info>  [1767381762.1352] dhcp4 (wlp2s0):   lease time 3599
+Jan  3 00:52:42 archana-Latitude-5490 NetworkManager[923]: <info>  [1767381762.1353] dhcp4 (wlp2s0):   hostname 'archana-Latitude-5490'
+Jan  3 00:52:42 archana-Latitude-5490 NetworkManager[923]: <info>  [1767381762.1353] dhcp4 (wlp2s0):   nameserver '192.168.198.115'
+Jan  3 00:52:42 archana-Latitude-5490 NetworkManager[923]: <info>  [1767381762.1353] dhcp4 (wlp2s0): state changed bound -> bound
+Jan  3 00:52:42 archana-Latitude-5490 dbus-daemon[919]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=923 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jan  3 00:52:42 archana-Latitude-5490 dhclient[31517]: bound to 192.168.198.55 -- renewal in 1433 seconds.
+Jan  3 00:52:42 archana-Latitude-5490 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jan  3 00:52:42 archana-Latitude-5490 dbus-daemon[919]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan  3 00:52:42 archana-Latitude-5490 systemd[1]: Started Network Manager Script Dispatcher Service.
+Jan  3 00:52:42 archana-Latitude-5490 nm-dispatcher: req:1 'dhcp4-change' [wlp2s0]: new request (1 scripts)
+Jan  3 00:52:42 archana-Latitude-5490 nm-dispatcher: req:1 'dhcp4-change' [wlp2s0]: start running ordered scripts...
+Jan  3 00:52:45 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3442:0103/005245.445905:ERROR:google_apis/gcm/engine/registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Jan  3 00:53:36 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3442:0103/005336.656596:ERROR:google_apis/gcm/engine/registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Jan  3 00:55:55 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3442:0103/005555.788252:ERROR:google_apis/gcm/engine/registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Jan  3 00:56:19 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3442:0103/005619.118926:ERROR:google_apis/gcm/engine/registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Jan  3 00:59:36 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [0103/005936.164472:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:153] open /home/archana/.config/google-chrome/Crash Reports/pending/d278c32e-e9ed-4e91-86e5-2c2ccef185d7.lock: File exists (17)
+Jan  3 01:02:51 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3442:0103/010251.302353:ERROR:google_apis/gcm/engine/registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Jan  3 01:03:07 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [3397:3442:0103/010307.087723:ERROR:google_apis/gcm/engine/registration_request.cc:292] Registration response error message: DEPRECATED_ENDPOINT
+Jan  3 01:09:01 archana-Latitude-5490 CRON[3210]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan  3 01:09:09 archana-Latitude-5490 systemd[1]: Starting Clean php session files...
+Jan  3 01:09:09 archana-Latitude-5490 systemd[1]: Started Clean php session files.
+Jan  3 01:09:50 archana-Latitude-5490 /usr/lib/gdm3/gdm-x-session[2617]: (EE) event18 - DELL0816:00 044E:120A Touchpad: libinput bug: invalid tap event TAP_EVENT_PALM in state TAP_STATE_TAPPED
+Jan  3 01:14:36 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [0103/011436.165022:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:153] open /home/archana/.config/google-chrome/Crash Reports/pending/d278c32e-e9ed-4e91-86e5-2c2ccef185d7.lock: File exists (17)
+Jan  3 01:16:35 archana-Latitude-5490 dhclient[31517]: DHCPREQUEST of 192.168.198.55 on wlp2s0 to 192.168.198.115 port 67 (xid=0x2f50b84d)
+Jan  3 01:16:35 archana-Latitude-5490 dhclient[31517]: DHCPACK of 192.168.198.55 from 192.168.198.115
+Jan  3 01:16:35 archana-Latitude-5490 NetworkManager[923]: <info>  [1767383195.6684] dhcp4 (wlp2s0):   address 192.168.198.55
+Jan  3 01:16:35 archana-Latitude-5490 NetworkManager[923]: <info>  [1767383195.6684] dhcp4 (wlp2s0):   plen 24 (255.255.255.0)
+Jan  3 01:16:35 archana-Latitude-5490 NetworkManager[923]: <info>  [1767383195.6685] dhcp4 (wlp2s0):   gateway 192.168.198.115
+Jan  3 01:16:35 archana-Latitude-5490 NetworkManager[923]: <info>  [1767383195.6685] dhcp4 (wlp2s0):   lease time 3599
+Jan  3 01:16:35 archana-Latitude-5490 NetworkManager[923]: <info>  [1767383195.6686] dhcp4 (wlp2s0):   hostname 'archana-Latitude-5490'
+Jan  3 01:16:35 archana-Latitude-5490 NetworkManager[923]: <info>  [1767383195.6686] dhcp4 (wlp2s0):   nameserver '192.168.198.115'
+Jan  3 01:16:35 archana-Latitude-5490 dbus-daemon[919]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=923 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jan  3 01:16:35 archana-Latitude-5490 NetworkManager[923]: <info>  [1767383195.6686] dhcp4 (wlp2s0): state changed bound -> bound
+Jan  3 01:16:35 archana-Latitude-5490 dhclient[31517]: bound to 192.168.198.55 -- renewal in 1743 seconds.
+Jan  3 01:16:35 archana-Latitude-5490 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jan  3 01:16:35 archana-Latitude-5490 dbus-daemon[919]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan  3 01:16:35 archana-Latitude-5490 systemd[1]: Started Network Manager Script Dispatcher Service.
+Jan  3 01:16:35 archana-Latitude-5490 nm-dispatcher: req:1 'dhcp4-change' [wlp2s0]: new request (1 scripts)
+Jan  3 01:16:35 archana-Latitude-5490 nm-dispatcher: req:1 'dhcp4-change' [wlp2s0]: start running ordered scripts...
+Jan  3 01:17:01 archana-Latitude-5490 CRON[3534]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan  3 01:19:21 archana-Latitude-5490 accounts-daemon[933]: Unable to open /etc/shadow: No such file or directory
+Jan  3 01:21:04 archana-Latitude-5490 systemd-resolved[773]: Grace period over, resuming full feature set (UDP+EDNS0) for DNS server 2401:4900:58ce:2820::6e.
+Jan  3 01:23:54 archana-Latitude-5490 systemd-resolved[773]: Using degraded feature set (UDP) for DNS server 2401:4900:58ce:2820::6e.
+Jan  3 01:25:06 archana-Latitude-5490 accounts-daemon[933]: Unable to open /etc/shadow: No such file or directory
+Jan  3 01:29:36 archana-Latitude-5490 org.gnome.Shell.desktop[2768]: [0103/012936.165549:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:153] open /home/archana/.config/google-chrome/Crash Reports/pending/d278c32e-e9ed-4e91-86e5-2c2ccef185d7.lock: File exists (17)
